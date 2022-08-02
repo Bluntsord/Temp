@@ -5,15 +5,14 @@ channels:
   - conda
 
 dependencies:
-  - pandas=1.4.0
-  - pip=21
+  - pandas=1.4.2
+  - pip=20
   - python=3.8.13
   - black=22.3.0
-  - pytest=7.1.1
+  - pytest=7.1.2
   - openpyxl=3.0.9
   - pylint=2.12.2
   - coverage=6.4
   - snowflake-connector-python=2.7.7
-  - pandas_schema=0.3.5
   - pandera=0.10.1
   - snowflake-snowpark-python=0.7.0
