@@ -10,3 +10,12 @@ provider:
 functions:
   hello:
     handler: main.print_hi
+    layers:
+      - !Ref layerOne
+
+layers:
+  layerOne:
+    path: layerOne
+    package:
+      patterns:
+        - '!env.tar.gz'
