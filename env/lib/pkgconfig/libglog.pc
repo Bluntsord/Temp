@@ -1,0 +1,11 @@
+prefix=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env
+exec_prefix=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env/bin
+libdir=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env/lib
+includedir=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env/include
+
+Name: libglog
+Description: Google Log (glog) C++ logging framework
+Version: 0.6.0
+Libs: -L${libdir} -lglog
+Libs.private: -lgflags
+Cflags: -I${includedir}

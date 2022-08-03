@@ -1,0 +1,2416 @@
+{
+  "build": "py38h70d6af8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "pandas >1,<1.5"
+  ],
+  "depends": [
+    "arrow-cpp >=7.0.0,<7.0.1.0a0",
+    "asn1crypto >0.24.0,<2.0.0",
+    "certifi >=2017.4.17",
+    "cffi >=1.9,<2.0.0",
+    "charset-normalizer ~=2.0.0",
+    "cryptography >=3.1.0,<36.0.0",
+    "idna >=2.5,<4",
+    "libcxx >=13.0.1",
+    "numpy >=1.19.5,<2.0a0",
+    "oscrypto <2.0.0",
+    "pyarrow >=7.0.0,<8.0a0",
+    "pycryptodomex >=3.2,!=3.5.0,<4.0.0",
+    "pyjwt <3.0.0",
+    "pyopenssl >=16.2.0,<22.0.0",
+    "python >=3.8,<3.9.0a0",
+    "python_abi 3.8.* *_cp38",
+    "pytz",
+    "requests <3.0.0",
+    "setuptools >34.0.0"
+  ],
+  "extracted_package_dir": "/opt/homebrew/anaconda3/pkgs/snowflake-connector-python-2.7.7-py38h70d6af8_0",
+  "features": "",
+  "files": [
+    "bin/snowflake-dump-certs",
+    "bin/snowflake-dump-ocsp-response",
+    "bin/snowflake-dump-ocsp-response-cache",
+    "bin/snowflake-export-certs",
+    "lib/python3.8/site-packages/snowflake/connector/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/arrow_context.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_by_plugin.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_default.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_idtoken.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_keypair.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_oauth.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_okta.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_usrpwdmfa.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_webbrowser.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/azure_storage_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/bind_upload_agent.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/connection.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/constants.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_issue23517.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_null.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_snowsql.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/cursor.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/dbapi.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/description.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/encryption_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/errorcode.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/feature.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_compression_type.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_transfer_agent.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/gcs_storage_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/gzip_decoder.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/local_storage_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/mixin.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/network.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/ocsp_asn1crypto.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/ocsp_snowflake.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/options.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/pandas_tools.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/proxy.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/result_batch.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/result_set.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/s3_storage_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/secret_detector.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/sfbinaryformat.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/sfdatetime.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/snow_logging.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/sqlstate.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/ssd_internal_keys.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/ssl_wrap_socket.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/storage_client.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/telemetry.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/telemetry_oob.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/test_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/time_util.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/util_text.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/__pycache__/version.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/arrow_context.py",
+    "lib/python3.8/site-packages/snowflake/connector/arrow_iterator.cpython-38-darwin.so",
+    "lib/python3.8/site-packages/snowflake/connector/arrow_iterator.pyx",
+    "lib/python3.8/site-packages/snowflake/connector/auth.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_by_plugin.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_default.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_idtoken.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_keypair.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_oauth.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_okta.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_usrpwdmfa.py",
+    "lib/python3.8/site-packages/snowflake/connector/auth_webbrowser.py",
+    "lib/python3.8/site-packages/snowflake/connector/azure_storage_client.py",
+    "lib/python3.8/site-packages/snowflake/connector/bind_upload_agent.py",
+    "lib/python3.8/site-packages/snowflake/connector/compat.py",
+    "lib/python3.8/site-packages/snowflake/connector/connection.py",
+    "lib/python3.8/site-packages/snowflake/connector/constants.py",
+    "lib/python3.8/site-packages/snowflake/connector/converter.py",
+    "lib/python3.8/site-packages/snowflake/connector/converter_issue23517.py",
+    "lib/python3.8/site-packages/snowflake/connector/converter_null.py",
+    "lib/python3.8/site-packages/snowflake/connector/converter_snowsql.py",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BinaryConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BinaryConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BooleanConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BooleanConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowChunkIterator.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowChunkIterator.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowIterator.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowIterator.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowTableIterator.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowTableIterator.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DateConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DateConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DecimalConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DecimalConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/FloatConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/FloatConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IColumnConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IntConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IntConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Common.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Common.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Helpers.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Helpers.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/SnowflakeType.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/SnowflakeType.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/StringConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/StringConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeStampConverter.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeStampConverter.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/macros.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/time.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/time.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/Logging/logging.cpp",
+    "lib/python3.8/site-packages/snowflake/connector/cpp/Logging/logging.hpp",
+    "lib/python3.8/site-packages/snowflake/connector/cursor.py",
+    "lib/python3.8/site-packages/snowflake/connector/dbapi.py",
+    "lib/python3.8/site-packages/snowflake/connector/description.py",
+    "lib/python3.8/site-packages/snowflake/connector/encryption_util.py",
+    "lib/python3.8/site-packages/snowflake/connector/errorcode.py",
+    "lib/python3.8/site-packages/snowflake/connector/errors.py",
+    "lib/python3.8/site-packages/snowflake/connector/feature.py",
+    "lib/python3.8/site-packages/snowflake/connector/file_compression_type.py",
+    "lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py",
+    "lib/python3.8/site-packages/snowflake/connector/file_util.py",
+    "lib/python3.8/site-packages/snowflake/connector/gcs_storage_client.py",
+    "lib/python3.8/site-packages/snowflake/connector/gzip_decoder.py",
+    "lib/python3.8/site-packages/snowflake/connector/local_storage_client.py",
+    "lib/python3.8/site-packages/snowflake/connector/mixin.py",
+    "lib/python3.8/site-packages/snowflake/connector/network.py",
+    "lib/python3.8/site-packages/snowflake/connector/ocsp_asn1crypto.py",
+    "lib/python3.8/site-packages/snowflake/connector/ocsp_snowflake.py",
+    "lib/python3.8/site-packages/snowflake/connector/options.py",
+    "lib/python3.8/site-packages/snowflake/connector/pandas_tools.py",
+    "lib/python3.8/site-packages/snowflake/connector/proxy.py",
+    "lib/python3.8/site-packages/snowflake/connector/py.typed",
+    "lib/python3.8/site-packages/snowflake/connector/result_batch.py",
+    "lib/python3.8/site-packages/snowflake/connector/result_set.py",
+    "lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py",
+    "lib/python3.8/site-packages/snowflake/connector/secret_detector.py",
+    "lib/python3.8/site-packages/snowflake/connector/sfbinaryformat.py",
+    "lib/python3.8/site-packages/snowflake/connector/sfdatetime.py",
+    "lib/python3.8/site-packages/snowflake/connector/snow_logging.py",
+    "lib/python3.8/site-packages/snowflake/connector/sqlstate.py",
+    "lib/python3.8/site-packages/snowflake/connector/ssd_internal_keys.py",
+    "lib/python3.8/site-packages/snowflake/connector/ssl_wrap_socket.py",
+    "lib/python3.8/site-packages/snowflake/connector/storage_client.py",
+    "lib/python3.8/site-packages/snowflake/connector/telemetry.py",
+    "lib/python3.8/site-packages/snowflake/connector/telemetry_oob.py",
+    "lib/python3.8/site-packages/snowflake/connector/test_util.py",
+    "lib/python3.8/site-packages/snowflake/connector/time_util.py",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_certs.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_ocsp_response.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_ocsp_response_cache.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/probe_connection.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/tool/dump_certs.py",
+    "lib/python3.8/site-packages/snowflake/connector/tool/dump_ocsp_response.py",
+    "lib/python3.8/site-packages/snowflake/connector/tool/dump_ocsp_response_cache.py",
+    "lib/python3.8/site-packages/snowflake/connector/tool/probe_connection.py",
+    "lib/python3.8/site-packages/snowflake/connector/util_text.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/LICENSE",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/__version__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/_internal_utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/adapters.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/api.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/auth.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/certs.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/compat.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/cookies.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/help.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/hooks.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/models.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/sessions.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/status_codes.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/structures.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/utils.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__version__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/_internal_utils.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/api.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/auth.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/certs.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/compat.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/cookies.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/exceptions.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/help.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/hooks.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/status_codes.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/structures.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/requests/utils.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/LICENSE.txt",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/_collections.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/_version.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/connection.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/connectionpool.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/exceptions.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/fields.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/filepost.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/poolmanager.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/request.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/response.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/_collections.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/_version.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/_appengine_environ.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/appengine.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/ntlmpool.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/pyopenssl.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/securetransport.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/socks.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_appengine_environ.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/bindings.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/low_level.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/appengine.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/ntlmpool.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/pyopenssl.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/securetransport.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/socks.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/exceptions.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/fields.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/filepost.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__pycache__/six.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__pycache__/makefile.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/makefile.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/six.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__pycache__/_implementation.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/_implementation.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/poolmanager.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/request.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/response.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__init__.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/connection.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/proxy.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/queue.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/request.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/response.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/retry.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/ssl_.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/ssltransport.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/timeout.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/url.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/wait.cpython-38.pyc",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/connection.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/proxy.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/queue.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/request.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/response.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/retry.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/ssl_.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/ssltransport.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/timeout.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/url.py",
+    "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/wait.py",
+    "lib/python3.8/site-packages/snowflake/connector/version.py",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7-py3.8-nspkg.pth",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/METADATA",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/NOTICE",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/RECORD",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/WHEEL",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/entry_points.txt",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/namespace_packages.txt",
+    "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/top_level.txt"
+  ],
+  "fn": "snowflake-connector-python-2.7.7-py38h70d6af8_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "/opt/homebrew/anaconda3/pkgs/snowflake-connector-python-2.7.7-py38h70d6af8_0",
+    "type": 1
+  },
+  "md5": "7aaf2e5f176735a5500982e5610e6c75",
+  "name": "snowflake-connector-python",
+  "package_tarball_full_path": "/opt/homebrew/anaconda3/pkgs/snowflake-connector-python-2.7.7-py38h70d6af8_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/snowflake-dump-certs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/snowflake-connector-python_1651337409233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "8c10fb53d03fec27ceff05ae146fb0e497a08da2bd61cc1520c9a5a99e3c5a45",
+        "sha256_in_prefix": "7467203cbe52711104d5db84af2b5b92d666b9bc1fe01c340a95e61297fe8918",
+        "size_in_bytes": 488
+      },
+      {
+        "_path": "bin/snowflake-dump-ocsp-response",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/snowflake-connector-python_1651337409233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "02c3f115e7346b616abab441edf9380c20bed39681f8cf8a2236129cd9d10e11",
+        "sha256_in_prefix": "7fa0c63fdbbb36c22e77a76392714ab1b89a9939a5be58c6dd1271ef84b9b737",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "bin/snowflake-dump-ocsp-response-cache",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/snowflake-connector-python_1651337409233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "6e32a5383e8fa1a883aff001e7a6775f966ef585d3b449e2f488d08e881ad86f",
+        "sha256_in_prefix": "bdceb48f9830b7166d5de822480aa8213044f453a657523bf73b0847d5245c33",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "bin/snowflake-export-certs",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/snowflake-connector-python_1651337409233/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+        "sha256": "335bf2cf736f81f5ab0d238d08da9a86e8e0b64bd05f6285ba9253d2656e2fa5",
+        "sha256_in_prefix": "6eab10453aef1acb9a08658d9e85183f3800e6ed2f42c6379183929000bdd85a",
+        "size_in_bytes": 490
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "19ced3cf5ddb10140eb8ebbbf729928aa9d98c0957b8c262bbefde48e66921d2",
+        "sha256_in_prefix": "19ced3cf5ddb10140eb8ebbbf729928aa9d98c0957b8c262bbefde48e66921d2",
+        "size_in_bytes": 1714
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "32f28b20032cc9ab2b53178809cb3ffc6ce067eae52b83af103f866e021334a8",
+        "sha256_in_prefix": "32f28b20032cc9ab2b53178809cb3ffc6ce067eae52b83af103f866e021334a8",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/arrow_context.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "500cea99db7945b98d966fb67731836e7cd438bddbcba95c5ab2127f4b589147",
+        "sha256_in_prefix": "500cea99db7945b98d966fb67731836e7cd438bddbcba95c5ab2127f4b589147",
+        "size_in_bytes": 5391
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "db260f4328d5b93831b1c1db252da5fa022100d19981940068fa7238eb24eb42",
+        "sha256_in_prefix": "db260f4328d5b93831b1c1db252da5fa022100d19981940068fa7238eb24eb42",
+        "size_in_bytes": 16089
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_by_plugin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d40669ba955010c0efe8c040170b8dfc560336bcc506cefe36f918f22623651",
+        "sha256_in_prefix": "0d40669ba955010c0efe8c040170b8dfc560336bcc506cefe36f918f22623651",
+        "size_in_bytes": 4718
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_default.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc9e57dd0da448fdcc503938f5de5680abb5981fe2ae0f40b7bff93255cfc7e3",
+        "sha256_in_prefix": "bc9e57dd0da448fdcc503938f5de5680abb5981fe2ae0f40b7bff93255cfc7e3",
+        "size_in_bytes": 1288
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_idtoken.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e888ada57c176444185b8e175c696df60aece43539d78e1ec24a52bcfc07d430",
+        "sha256_in_prefix": "e888ada57c176444185b8e175c696df60aece43539d78e1ec24a52bcfc07d430",
+        "size_in_bytes": 1532
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_keypair.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fd6f34ff6f780303359434831366231735f8a8946e12063677d58b26f6657d83",
+        "sha256_in_prefix": "fd6f34ff6f780303359434831366231735f8a8946e12063677d58b26f6657d83",
+        "size_in_bytes": 5301
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_oauth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "5daa81c02a026b501164cb2c8c7a4a5a6c48f1ec51e6005ef060198eebfc5ba2",
+        "sha256_in_prefix": "5daa81c02a026b501164cb2c8c7a4a5a6c48f1ec51e6005ef060198eebfc5ba2",
+        "size_in_bytes": 1638
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_okta.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ec117e19e3f2b91a38b391f1325276458ff51eed240a8a4ee9ce6e2e7c7843b8",
+        "sha256_in_prefix": "ec117e19e3f2b91a38b391f1325276458ff51eed240a8a4ee9ce6e2e7c7843b8",
+        "size_in_bytes": 7530
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_usrpwdmfa.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "baf0832fffb302a85bde506e55f2355428b7152af33d49e63a3811fb98957ece",
+        "sha256_in_prefix": "baf0832fffb302a85bde506e55f2355428b7152af33d49e63a3811fb98957ece",
+        "size_in_bytes": 1940
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/auth_webbrowser.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7da0d7c0540e056886ef97b889176b64b91b9e9df1e44ee6e2f9b0464aa95075",
+        "sha256_in_prefix": "7da0d7c0540e056886ef97b889176b64b91b9e9df1e44ee6e2f9b0464aa95075",
+        "size_in_bytes": 9258
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/azure_storage_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "584e8ae205dcb0f4c37ded498829270a30d47b383d813671128aa86f013a5298",
+        "sha256_in_prefix": "584e8ae205dcb0f4c37ded498829270a30d47b383d813671128aa86f013a5298",
+        "size_in_bytes": 8228
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/bind_upload_agent.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "968b7719282eebd42e0a9fede3b3d3a900b0cd98151979e1421105f9a8135bbf",
+        "sha256_in_prefix": "968b7719282eebd42e0a9fede3b3d3a900b0cd98151979e1421105f9a8135bbf",
+        "size_in_bytes": 2337
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9df844801ed04d61e053911d387893a0973aef053d807a56b18a5991cf2db405",
+        "sha256_in_prefix": "9df844801ed04d61e053911d387893a0973aef053d807a56b18a5991cf2db405",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b77f6d05bfc9a480296ea22063a366bb0b9da6a9f2f393d6fb12f7ea35b4a26",
+        "sha256_in_prefix": "9b77f6d05bfc9a480296ea22063a366bb0b9da6a9f2f393d6fb12f7ea35b4a26",
+        "size_in_bytes": 43037
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/constants.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "05aaef0bbe7f183affd7b353cc9639d35bebd2564ba8096239de12e9725073df",
+        "sha256_in_prefix": "05aaef0bbe7f183affd7b353cc9639d35bebd2564ba8096239de12e9725073df",
+        "size_in_bytes": 7971
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "06662e431f95687bca6e907365b20982c3172f6c156792e525d9847ef1170fd2",
+        "sha256_in_prefix": "06662e431f95687bca6e907365b20982c3172f6c156792e525d9847ef1170fd2",
+        "size_in_bytes": 24854
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_issue23517.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d3b69fc938df44e2d1b4ce19e40442f9f9694be24630318b165ccfcf6e82f31a",
+        "sha256_in_prefix": "d3b69fc938df44e2d1b4ce19e40442f9f9694be24630318b165ccfcf6e82f31a",
+        "size_in_bytes": 3664
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_null.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6a81442fcdd12cdbdc9343ede6559b48db40bbcb05c6f45378fb50fe2938f3a9",
+        "sha256_in_prefix": "6a81442fcdd12cdbdc9343ede6559b48db40bbcb05c6f45378fb50fe2938f3a9",
+        "size_in_bytes": 811
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/converter_snowsql.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "20dbaffb11f11c4b826b052ae51974ac1a75cd5b3cf48128ebe40eed0654fc72",
+        "sha256_in_prefix": "20dbaffb11f11c4b826b052ae51974ac1a75cd5b3cf48128ebe40eed0654fc72",
+        "size_in_bytes": 7367
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/cursor.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f02e0c95f33d80de0bbaadc4c92b964d58421bf2833693b525ff2f0d9ec040ee",
+        "sha256_in_prefix": "f02e0c95f33d80de0bbaadc4c92b964d58421bf2833693b525ff2f0d9ec040ee",
+        "size_in_bytes": 35656
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/dbapi.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2805d93f4bb9f20bbc0e81382e43b29dd425a0369f59c3601d1f0fe94ecf09b3",
+        "sha256_in_prefix": "2805d93f4bb9f20bbc0e81382e43b29dd425a0369f59c3601d1f0fe94ecf09b3",
+        "size_in_bytes": 2207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/description.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ded3c52ad83d71588f8f1a82d9de01a3fcb21eaf8652fc7b0272b326d0211b9",
+        "sha256_in_prefix": "6ded3c52ad83d71588f8f1a82d9de01a3fcb21eaf8652fc7b0272b326d0211b9",
+        "size_in_bytes": 997
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/encryption_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "785dfd60bca694356483ac5344ef3a2e7f329863b33be83494d1ad6644eb1ca1",
+        "sha256_in_prefix": "785dfd60bca694356483ac5344ef3a2e7f329863b33be83494d1ad6644eb1ca1",
+        "size_in_bytes": 6376
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/errorcode.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e9598f13e7aafb8f85240486d3992ae131784e60b9eb0200d4ae2d94bc840fc5",
+        "sha256_in_prefix": "e9598f13e7aafb8f85240486d3992ae131784e60b9eb0200d4ae2d94bc840fc5",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/errors.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9453524f3b00d879afc06b32a90cde97d7a7468af50a4eaae0cb6ff90f439495",
+        "sha256_in_prefix": "9453524f3b00d879afc06b32a90cde97d7a7468af50a4eaae0cb6ff90f439495",
+        "size_in_bytes": 16128
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/feature.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "089292554e3718e7738982270a2f6ddf4fba160a7e98804d6917292fcebf5798",
+        "sha256_in_prefix": "089292554e3718e7738982270a2f6ddf4fba160a7e98804d6917292fcebf5798",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_compression_type.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8f7c37a5179799d7df6b17684e97a351ef8ed72d89fe16c3bc47dc4116486b3",
+        "sha256_in_prefix": "a8f7c37a5179799d7df6b17684e97a351ef8ed72d89fe16c3bc47dc4116486b3",
+        "size_in_bytes": 2031
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_transfer_agent.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e18ed75beae54f4fbbe22e44fda71c61ee731e2885c081d8e72794ac99e0a40",
+        "sha256_in_prefix": "0e18ed75beae54f4fbbe22e44fda71c61ee731e2885c081d8e72794ac99e0a40",
+        "size_in_bytes": 23798
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/file_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "76bf003d434f4bee314cee3bf78356a92a1f1ba97accf9bfbbb266b66cec60b3",
+        "sha256_in_prefix": "76bf003d434f4bee314cee3bf78356a92a1f1ba97accf9bfbbb266b66cec60b3",
+        "size_in_bytes": 4917
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/gcs_storage_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f474892afda43b30d69d12f7f0567975c88a5482130b12a379c603c5a52b76c",
+        "sha256_in_prefix": "4f474892afda43b30d69d12f7f0567975c88a5482130b12a379c603c5a52b76c",
+        "size_in_bytes": 10243
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/gzip_decoder.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "66b23d21e68ffc2bd82d2259e5d3d22671522a79672ec1d9860562da2171d079",
+        "sha256_in_prefix": "66b23d21e68ffc2bd82d2259e5d3d22671522a79672ec1d9860562da2171d079",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/local_storage_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "74d1caa4a3d74e094829fb6d623466974da4b418b211c6dd7bf0a65e7cf5fdd9",
+        "sha256_in_prefix": "74d1caa4a3d74e094829fb6d623466974da4b418b211c6dd7bf0a65e7cf5fdd9",
+        "size_in_bytes": 3433
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/mixin.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "88c9996f533e30ecf5a549973b8dc4030190db2cf799566d7b10083158430e42",
+        "sha256_in_prefix": "88c9996f533e30ecf5a549973b8dc4030190db2cf799566d7b10083158430e42",
+        "size_in_bytes": 539
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/network.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a15f989ee91b4ea0007954513db7a876e723667f2a28f874ad4d1c3a27bd3fd6",
+        "sha256_in_prefix": "a15f989ee91b4ea0007954513db7a876e723667f2a28f874ad4d1c3a27bd3fd6",
+        "size_in_bytes": 25716
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/ocsp_asn1crypto.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "abce34472848b312ea27472e452895879a99a3bc1a029f364c2212838d78221e",
+        "sha256_in_prefix": "abce34472848b312ea27472e452895879a99a3bc1a029f364c2212838d78221e",
+        "size_in_bytes": 12217
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/ocsp_snowflake.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "668c87a097a05ae881c55b34738d5d436466a401f79ef97fdac38a8aa64b4390",
+        "sha256_in_prefix": "668c87a097a05ae881c55b34738d5d436466a401f79ef97fdac38a8aa64b4390",
+        "size_in_bytes": 49003
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/options.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "321c0bf7b2a35af54ced5277afafe5781d4d1795cee1d8ef2f1d91acc991ff6d",
+        "sha256_in_prefix": "321c0bf7b2a35af54ced5277afafe5781d4d1795cee1d8ef2f1d91acc991ff6d",
+        "size_in_bytes": 3875
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/pandas_tools.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8b4c3b8f819d3f6196570faa1ff9cf50b45f3180f142480f941103007848e685",
+        "sha256_in_prefix": "8b4c3b8f819d3f6196570faa1ff9cf50b45f3180f142480f941103007848e685",
+        "size_in_bytes": 10918
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/proxy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "740be9a2beedf45a2a48a149a84750d55a80337339bc34421b48642c018d15f2",
+        "sha256_in_prefix": "740be9a2beedf45a2a48a149a84750d55a80337339bc34421b48642c018d15f2",
+        "size_in_bytes": 916
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/result_batch.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2db9d2b907fa0c315ee102499129ddb89095e8c0aa3e04e8d570f2075b64dd08",
+        "sha256_in_prefix": "2db9d2b907fa0c315ee102499129ddb89095e8c0aa3e04e8d570f2075b64dd08",
+        "size_in_bytes": 20194
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/result_set.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ac9cd41149258a605235a24ba5de4da97bd95c212a2ba5f27a0ea956c466300",
+        "sha256_in_prefix": "0ac9cd41149258a605235a24ba5de4da97bd95c212a2ba5f27a0ea956c466300",
+        "size_in_bytes": 7683
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/s3_storage_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8a98bf06b2ec74872d2bf946594f35f2a874125aa7beeb25e298806d34acfcab",
+        "sha256_in_prefix": "8a98bf06b2ec74872d2bf946594f35f2a874125aa7beeb25e298806d34acfcab",
+        "size_in_bytes": 16113
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/secret_detector.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "120582afebc586c8c51fac7317270f7977ae3a99efe7bd5b508993747d4848f6",
+        "sha256_in_prefix": "120582afebc586c8c51fac7317270f7977ae3a99efe7bd5b508993747d4848f6",
+        "size_in_bytes": 4416
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/sfbinaryformat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1ef3375cd3db282e1be123ff5d0fec132082e7899d9e60f6ab5af27cd94cd1f7",
+        "sha256_in_prefix": "1ef3375cd3db282e1be123ff5d0fec132082e7899d9e60f6ab5af27cd94cd1f7",
+        "size_in_bytes": 1361
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/sfdatetime.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "52dbeb2403acc2b934ec5e4f3b711fef0b7a0b30e67e541d74d7600c4953da78",
+        "sha256_in_prefix": "52dbeb2403acc2b934ec5e4f3b711fef0b7a0b30e67e541d74d7600c4953da78",
+        "size_in_bytes": 7877
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/snow_logging.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "187de72ed2902679d6315f98b18e8f5a42af04ce12f43bdd62e8e471875f8d3d",
+        "sha256_in_prefix": "187de72ed2902679d6315f98b18e8f5a42af04ce12f43bdd62e8e471875f8d3d",
+        "size_in_bytes": 3188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/sqlstate.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0938549f9431a3264c791bd33d1b8be2077bef02524da3a752637432f3ecf176",
+        "sha256_in_prefix": "0938549f9431a3264c791bd33d1b8be2077bef02524da3a752637432f3ecf176",
+        "size_in_bytes": 510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/ssd_internal_keys.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3cdfa5022ee0326e6812609654ac4a99ebc1717ded3df836e061ccfc562d961",
+        "sha256_in_prefix": "c3cdfa5022ee0326e6812609654ac4a99ebc1717ded3df836e061ccfc562d961",
+        "size_in_bytes": 808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/ssl_wrap_socket.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0d5ab5e51d629c8e78f1a32c760bd11ab7eb4ba67c1e2297fde08f52d68cf65c",
+        "sha256_in_prefix": "0d5ab5e51d629c8e78f1a32c760bd11ab7eb4ba67c1e2297fde08f52d68cf65c",
+        "size_in_bytes": 3394
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/storage_client.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "183410639e7fa9144b71edf716a202972325a9bfd06aafa7f12fa9fabb313f58",
+        "sha256_in_prefix": "183410639e7fa9144b71edf716a202972325a9bfd06aafa7f12fa9fabb313f58",
+        "size_in_bytes": 11833
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/telemetry.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b81bff035dc83525c685605fafd35576562b6b1e595ce82f7213c5b80391ea8d",
+        "sha256_in_prefix": "b81bff035dc83525c685605fafd35576562b6b1e595ce82f7213c5b80391ea8d",
+        "size_in_bytes": 5670
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/telemetry_oob.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "caac2e28d4e2cb4a7f2e54428dc779fe527d19cbd34c3f933e7f2bcba6cc984c",
+        "sha256_in_prefix": "caac2e28d4e2cb4a7f2e54428dc779fe527d19cbd34c3f933e7f2bcba6cc984c",
+        "size_in_bytes": 14377
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/test_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c05598eb180f9561b9f20aacc8706088abfdcbec50f5c6e6f98ad59eca0aa99d",
+        "sha256_in_prefix": "c05598eb180f9561b9f20aacc8706088abfdcbec50f5c6e6f98ad59eca0aa99d",
+        "size_in_bytes": 827
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/time_util.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5a3589ec8225c1cbd5f643dc165974ed07d23882fd37945001e478369c06b44",
+        "sha256_in_prefix": "c5a3589ec8225c1cbd5f643dc165974ed07d23882fd37945001e478369c06b44",
+        "size_in_bytes": 3478
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/util_text.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27b54595065db6043d07945f51c33ff7a4f97ce1ddeee155dbc6ca4d6c1a7374",
+        "sha256_in_prefix": "27b54595065db6043d07945f51c33ff7a4f97ce1ddeee155dbc6ca4d6c1a7374",
+        "size_in_bytes": 5288
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/__pycache__/version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f26c40f4ca44e836b4b78c0f3095e4b897104df17b08aa6814304458333cd1a3",
+        "sha256_in_prefix": "f26c40f4ca44e836b4b78c0f3095e4b897104df17b08aa6814304458333cd1a3",
+        "size_in_bytes": 177
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/arrow_context.py",
+        "path_type": "hardlink",
+        "sha256": "4463d044296e0166368346931744adbe04c05d01c930ae970426b165f2d28efa",
+        "sha256_in_prefix": "4463d044296e0166368346931744adbe04c05d01c930ae970426b165f2d28efa",
+        "size_in_bytes": 4570
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/arrow_iterator.cpython-38-darwin.so",
+        "path_type": "hardlink",
+        "sha256": "73b0e00f4a582e9e0c6fdf78624ad5a48be8b1286eac811eef07ca111b0adff0",
+        "sha256_in_prefix": "73b0e00f4a582e9e0c6fdf78624ad5a48be8b1286eac811eef07ca111b0adff0",
+        "size_in_bytes": 366432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/arrow_iterator.pyx",
+        "path_type": "hardlink",
+        "sha256": "2ae083b7932deec7f925acb41196fbb64ff5241d611cdef479d2c60a4cf26973",
+        "sha256_in_prefix": "2ae083b7932deec7f925acb41196fbb64ff5241d611cdef479d2c60a4cf26973",
+        "size_in_bytes": 6818
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth.py",
+        "path_type": "hardlink",
+        "sha256": "69405d5cc1d1374949fb055b153d906802e5b8dd17dc4fb5fb9551ddcac8ee31",
+        "sha256_in_prefix": "69405d5cc1d1374949fb055b153d906802e5b8dd17dc4fb5fb9551ddcac8ee31",
+        "size_in_bytes": 26654
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_by_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "dabd1f5178e5474100935c05a66eb5816a51227cc7058175074892f92544daea",
+        "sha256_in_prefix": "dabd1f5178e5474100935c05a66eb5816a51227cc7058175074892f92544daea",
+        "size_in_bytes": 4247
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_default.py",
+        "path_type": "hardlink",
+        "sha256": "ade3f26f52b39e37d76f59f4c0a5ee0ec013d7cf0cd3990e24e2f34483143c28",
+        "sha256_in_prefix": "ade3f26f52b39e37d76f59f4c0a5ee0ec013d7cf0cd3990e24e2f34483143c28",
+        "size_in_bytes": 771
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_idtoken.py",
+        "path_type": "hardlink",
+        "sha256": "8387b8d711207312ca1b84a7ff6492791efee2c0408fbad47c2865416a51ff8e",
+        "sha256_in_prefix": "8387b8d711207312ca1b84a7ff6492791efee2c0408fbad47c2865416a51ff8e",
+        "size_in_bytes": 1016
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_keypair.py",
+        "path_type": "hardlink",
+        "sha256": "0e82168991d2d87a4ccace996f6c1963baa04470c7ccd9b3e796e625d9c7eea8",
+        "sha256_in_prefix": "0e82168991d2d87a4ccace996f6c1963baa04470c7ccd9b3e796e625d9c7eea8",
+        "size_in_bytes": 6078
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_oauth.py",
+        "path_type": "hardlink",
+        "sha256": "911d2073826542df08a89fd4c1eec19f234390ed9fa6aabc156cb58b09522ec0",
+        "sha256_in_prefix": "911d2073826542df08a89fd4c1eec19f234390ed9fa6aabc156cb58b09522ec0",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_okta.py",
+        "path_type": "hardlink",
+        "sha256": "618c47f04ec9580e656af49171ff2aad20eb3b145d102d8394c25b75c22d0065",
+        "sha256_in_prefix": "618c47f04ec9580e656af49171ff2aad20eb3b145d102d8394c25b75c22d0065",
+        "size_in_bytes": 9802
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_usrpwdmfa.py",
+        "path_type": "hardlink",
+        "sha256": "d11315f7a60c062f34eedb285b07d3ec678f129311405a55ed24d051522b886c",
+        "sha256_in_prefix": "d11315f7a60c062f34eedb285b07d3ec678f129311405a55ed24d051522b886c",
+        "size_in_bytes": 1432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/auth_webbrowser.py",
+        "path_type": "hardlink",
+        "sha256": "99a88964109bde1ab8927c89a08410c2cf888ce7c5a532cfefdc88ca94014b64",
+        "sha256_in_prefix": "99a88964109bde1ab8927c89a08410c2cf888ce7c5a532cfefdc88ca94014b64",
+        "size_in_bytes": 12442
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/azure_storage_client.py",
+        "path_type": "hardlink",
+        "sha256": "3f1c6bcbb2fa2d74ad31a9690f2db68117f48bc05c443a4a0deac692d490f099",
+        "sha256_in_prefix": "3f1c6bcbb2fa2d74ad31a9690f2db68117f48bc05c443a4a0deac692d490f099",
+        "size_in_bytes": 9799
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/bind_upload_agent.py",
+        "path_type": "hardlink",
+        "sha256": "86be28371f29b7b088674c410b58520b9c3cc8ead1f2b2db375a68d3281f7546",
+        "sha256_in_prefix": "86be28371f29b7b088674c410b58520b9c3cc8ead1f2b2db375a68d3281f7546",
+        "size_in_bytes": 2331
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/compat.py",
+        "path_type": "hardlink",
+        "sha256": "e7253b158fa293c8c915730ea6b726f1d6a17ff7cb1e60bd1139f6b8b66ba2b0",
+        "sha256_in_prefix": "e7253b158fa293c8c915730ea6b726f1d6a17ff7cb1e60bd1139f6b8b66ba2b0",
+        "size_in_bytes": 2757
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/connection.py",
+        "path_type": "hardlink",
+        "sha256": "e22cabbb41e42332541432a253d26160a8171f47ca2216b7dc24574cd15475fa",
+        "sha256_in_prefix": "e22cabbb41e42332541432a253d26160a8171f47ca2216b7dc24574cd15475fa",
+        "size_in_bytes": 56583
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/constants.py",
+        "path_type": "hardlink",
+        "sha256": "ea8d7ff12bbb1bb57bcfc7a35156c46b78b78ab6a2dce7c2155a9dd9de4f1117",
+        "sha256_in_prefix": "ea8d7ff12bbb1bb57bcfc7a35156c46b78b78ab6a2dce7c2155a9dd9de4f1117",
+        "size_in_bytes": 7613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/converter.py",
+        "path_type": "hardlink",
+        "sha256": "5effa79e00536e04a47244cb3f8291eb571bc0459137e5d349fcd5cfeafc7ae6",
+        "sha256_in_prefix": "5effa79e00536e04a47244cb3f8291eb571bc0459137e5d349fcd5cfeafc7ae6",
+        "size_in_bytes": 24950
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/converter_issue23517.py",
+        "path_type": "hardlink",
+        "sha256": "ec3bd7aaee15bd9dc6487d79d39c9d02368f36b709838ba068bad3bf4f1991c4",
+        "sha256_in_prefix": "ec3bd7aaee15bd9dc6487d79d39c9d02368f36b709838ba068bad3bf4f1991c4",
+        "size_in_bytes": 2699
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/converter_null.py",
+        "path_type": "hardlink",
+        "sha256": "92f1ee14ae6e9f52d02ea99d37b1f54e049d6ee5344aaffa8637d568c0361ff1",
+        "sha256_in_prefix": "92f1ee14ae6e9f52d02ea99d37b1f54e049d6ee5344aaffa8637d568c0361ff1",
+        "size_in_bytes": 376
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/converter_snowsql.py",
+        "path_type": "hardlink",
+        "sha256": "0622a74c1e0d26df923fe6fa9fd17da4b06e7346443f883c6524a6d6fa9b72e5",
+        "sha256_in_prefix": "0622a74c1e0d26df923fe6fa9fd17da4b06e7346443f883c6524a6d6fa9b72e5",
+        "size_in_bytes": 7211
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BinaryConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "0c9f5eb49c6aa3b749c6471ac93ab667384e17535a7bf2692686aab35ae2342e",
+        "sha256_in_prefix": "0c9f5eb49c6aa3b749c6471ac93ab667384e17535a7bf2692686aab35ae2342e",
+        "size_in_bytes": 659
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BinaryConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "d337a819e67a516b9c7ce83e1b6400c0552da14d5b2bb70d24300e5ea320a33f",
+        "sha256_in_prefix": "d337a819e67a516b9c7ce83e1b6400c0552da14d5b2bb70d24300e5ea320a33f",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BooleanConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "aa66d4ea49800a74edac513aba8e84215123dd2bcce04bcecb0a9e8baf1339eb",
+        "sha256_in_prefix": "aa66d4ea49800a74edac513aba8e84215123dd2bcce04bcecb0a9e8baf1339eb",
+        "size_in_bytes": 565
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/BooleanConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5e77238f836b589552e92486e8cf8ec754e1f277642782a6b130b52b7b0312e9",
+        "sha256_in_prefix": "5e77238f836b589552e92486e8cf8ec754e1f277642782a6b130b52b7b0312e9",
+        "size_in_bytes": 512
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowChunkIterator.cpp",
+        "path_type": "hardlink",
+        "sha256": "a5b2b2473a5174d0a32f1634e5aee0a09ff62e0cc0e3af6666ab5afebe74ae8e",
+        "sha256_in_prefix": "a5b2b2473a5174d0a32f1634e5aee0a09ff62e0cc0e3af6666ab5afebe74ae8e",
+        "size_in_bytes": 14375
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowChunkIterator.hpp",
+        "path_type": "hardlink",
+        "sha256": "74cb19510d3267fec238b145f0fb22df6ad5b0daa8af2dfda95c60efeddd6af7",
+        "sha256_in_prefix": "74cb19510d3267fec238b145f0fb22df6ad5b0daa8af2dfda95c60efeddd6af7",
+        "size_in_bytes": 2308
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowIterator.cpp",
+        "path_type": "hardlink",
+        "sha256": "0075271e2a40979ba9a76f6daf979fccb6fed833188878cc54fae6f41e718a72",
+        "sha256_in_prefix": "0075271e2a40979ba9a76f6daf979fccb6fed833188878cc54fae6f41e718a72",
+        "size_in_bytes": 443
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowIterator.hpp",
+        "path_type": "hardlink",
+        "sha256": "8b3f1a3f7ee4cb839fd51b2ab95485af8e8bfd7381a7bc318449e4a79eb403e4",
+        "sha256_in_prefix": "8b3f1a3f7ee4cb839fd51b2ab95485af8e8bfd7381a7bc318449e4a79eb403e4",
+        "size_in_bytes": 1793
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowTableIterator.cpp",
+        "path_type": "hardlink",
+        "sha256": "c3f89f6f4e2143a87afecf652324fd23cbef9f0a59411cb590f9af74f2697b2b",
+        "sha256_in_prefix": "c3f89f6f4e2143a87afecf652324fd23cbef9f0a59411cb590f9af74f2697b2b",
+        "size_in_bytes": 32731
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/CArrowTableIterator.hpp",
+        "path_type": "hardlink",
+        "sha256": "912db47ee88ed80edd5b55cc915f9a01227e757530b7801288a939a01d4c9f16",
+        "sha256_in_prefix": "912db47ee88ed80edd5b55cc915f9a01227e757530b7801288a939a01d4c9f16",
+        "size_in_bytes": 5606
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DateConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "88c5e03003357bc551c5d2b5ff7a44b16f88b1aaf8981d590775fe9da589a8a6",
+        "sha256_in_prefix": "88c5e03003357bc551c5d2b5ff7a44b16f88b1aaf8981d590775fe9da589a8a6",
+        "size_in_bytes": 1601
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DateConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "5699592dd9642c76e3aac228b4bb5b45ec5b556f615e008a33c46bb23657842b",
+        "sha256_in_prefix": "5699592dd9642c76e3aac228b4bb5b45ec5b556f615e008a33c46bb23657842b",
+        "size_in_bytes": 1036
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DecimalConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "de4d55b07b1aad2d482ccfcae6348d9cc55c75f298d8bd8db4326424173147a3",
+        "sha256_in_prefix": "de4d55b07b1aad2d482ccfcae6348d9cc55c75f298d8bd8db4326424173147a3",
+        "size_in_bytes": 1625
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/DecimalConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "c43ed2784888e567e35475d64708cfbfc98de4ac218a33ad292932a283e42b39",
+        "sha256_in_prefix": "c43ed2784888e567e35475d64708cfbfc98de4ac218a33ad292932a283e42b39",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/FloatConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "f2be6b05772932705ba579e43e5f1ac1f1c752b87ea5c30789eeea1f76947e4a",
+        "sha256_in_prefix": "f2be6b05772932705ba579e43e5f1ac1f1c752b87ea5c30789eeea1f76947e4a",
+        "size_in_bytes": 1032
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/FloatConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "4930c3dc48e6a9de335d4c05bfae5f8185c3c5d3f424e6aafd2ac8def514ec56",
+        "sha256_in_prefix": "4930c3dc48e6a9de335d4c05bfae5f8185c3c5d3f424e6aafd2ac8def514ec56",
+        "size_in_bytes": 800
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IColumnConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "108ab97cc30afaf167b9a1ced652ce4b80eede94cd18776d5a45c01b8210753f",
+        "sha256_in_prefix": "108ab97cc30afaf167b9a1ced652ce4b80eede94cd18776d5a45c01b8210753f",
+        "size_in_bytes": 472
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IntConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "02b2d22cf4c2640d7ffde40284b61756f610c93767744332d0a4654f8da80783",
+        "sha256_in_prefix": "02b2d22cf4c2640d7ffde40284b61756f610c93767744332d0a4654f8da80783",
+        "size_in_bytes": 240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/IntConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "aee2fde079f9fd76a8aea40c5df03761dacd7c2cd55ad99e80a087d51b1216ec",
+        "sha256_in_prefix": "aee2fde079f9fd76a8aea40c5df03761dacd7c2cd55ad99e80a087d51b1216ec",
+        "size_in_bytes": 1687
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Common.cpp",
+        "path_type": "hardlink",
+        "sha256": "e932db2bc545fe3ccd7c54be0d6c89ff23bd9acad4726f46f5880f962d18e427",
+        "sha256_in_prefix": "e932db2bc545fe3ccd7c54be0d6c89ff23bd9acad4726f46f5880f962d18e427",
+        "size_in_bytes": 218
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Common.hpp",
+        "path_type": "hardlink",
+        "sha256": "b07483c263663726672f3c41061fc24a5c2d225682c6f2c2e2293fc5f966f0e5",
+        "sha256_in_prefix": "b07483c263663726672f3c41061fc24a5c2d225682c6f2c2e2293fc5f966f0e5",
+        "size_in_bytes": 2335
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Helpers.cpp",
+        "path_type": "hardlink",
+        "sha256": "8e445b36043dcdf291f1a90caafde6962687956b1893e0987fa3e31926019c4c",
+        "sha256_in_prefix": "8e445b36043dcdf291f1a90caafde6962687956b1893e0987fa3e31926019c4c",
+        "size_in_bytes": 1457
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Python/Helpers.hpp",
+        "path_type": "hardlink",
+        "sha256": "2346823ef147f248357abbbc78b933f88a040134d19ce4488d8c0f9c7bde4e15",
+        "sha256_in_prefix": "2346823ef147f248357abbbc78b933f88a040134d19ce4488d8c0f9c7bde4e15",
+        "size_in_bytes": 939
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/SnowflakeType.cpp",
+        "path_type": "hardlink",
+        "sha256": "d2c7c8a217988a58603569cb5e54046c2b9810b70714d887fd5da5de63b8b3b6",
+        "sha256_in_prefix": "d2c7c8a217988a58603569cb5e54046c2b9810b70714d887fd5da5de63b8b3b6",
+        "size_in_bytes": 1287
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/SnowflakeType.hpp",
+        "path_type": "hardlink",
+        "sha256": "d36a93b4ec0343042d7aa79cf23767a537fda047abd5785c45accb96370caf1f",
+        "sha256_in_prefix": "d36a93b4ec0343042d7aa79cf23767a537fda047abd5785c45accb96370caf1f",
+        "size_in_bytes": 884
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/StringConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "9eb0a129668b21408d9d29e6cf34a46ae9a93fdc7f978c77a830ba1fd2b02455",
+        "sha256_in_prefix": "9eb0a129668b21408d9d29e6cf34a46ae9a93fdc7f978c77a830ba1fd2b02455",
+        "size_in_bytes": 657
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/StringConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "c8691622ed74ce89e8de9d5cfaaf25c8198fd9f229dbec8ec8d75052da85796a",
+        "sha256_in_prefix": "c8691622ed74ce89e8de9d5cfaaf25c8198fd9f229dbec8ec8d75052da85796a",
+        "size_in_bytes": 555
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "cf95663846f71ecb0ab509909af264d7165234930cdc3d35014d62b798d3fc53",
+        "sha256_in_prefix": "cf95663846f71ecb0ab509909af264d7165234930cdc3d35014d62b798d3fc53",
+        "size_in_bytes": 241
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "f93e1660d9704f7b7d21206e5c419512b47d57d1fff2f9f4093840d7f63b009a",
+        "sha256_in_prefix": "f93e1660d9704f7b7d21206e5c419512b47d57d1fff2f9f4093840d7f63b009a",
+        "size_in_bytes": 1838
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeStampConverter.cpp",
+        "path_type": "hardlink",
+        "sha256": "e73032d91171458337ee069cf84036aff6162d0e2ce0728414e2f91433a5d23f",
+        "sha256_in_prefix": "e73032d91171458337ee069cf84036aff6162d0e2ce0728414e2f91433a5d23f",
+        "size_in_bytes": 9470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/TimeStampConverter.hpp",
+        "path_type": "hardlink",
+        "sha256": "3a88b70cb40fc5fe8fee2522f5f30429bdcc97419fef9f9778f43a89d2040db2",
+        "sha256_in_prefix": "3a88b70cb40fc5fe8fee2522f5f30429bdcc97419fef9f9778f43a89d2040db2",
+        "size_in_bytes": 4063
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/macros.hpp",
+        "path_type": "hardlink",
+        "sha256": "9ac3aef722344c640dd69d2f2d8d0f4712611c4d19dac7107443ea2609fe62f9",
+        "sha256_in_prefix": "9ac3aef722344c640dd69d2f2d8d0f4712611c4d19dac7107443ea2609fe62f9",
+        "size_in_bytes": 470
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/time.cpp",
+        "path_type": "hardlink",
+        "sha256": "68d3dea42a9de96b87d487940583331cf085027b7fe6ae55920771dce4b5a0d9",
+        "sha256_in_prefix": "68d3dea42a9de96b87d487940583331cf085027b7fe6ae55920771dce4b5a0d9",
+        "size_in_bytes": 2013
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/ArrowIterator/Util/time.hpp",
+        "path_type": "hardlink",
+        "sha256": "f02e8489848034dd065d29bad8e39007606824ebf9579cc09c00924eaf511601",
+        "sha256_in_prefix": "f02e8489848034dd065d29bad8e39007606824ebf9579cc09c00924eaf511601",
+        "size_in_bytes": 2269
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/Logging/logging.cpp",
+        "path_type": "hardlink",
+        "sha256": "2a20c8514ad7edb513d1d9b43582c0f809a61bb0bccd03756848ce48bee1a75e",
+        "sha256_in_prefix": "2a20c8514ad7edb513d1d9b43582c0f809a61bb0bccd03756848ce48bee1a75e",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cpp/Logging/logging.hpp",
+        "path_type": "hardlink",
+        "sha256": "0189d773a34fefc02fa4c6b93ea89940c0d6286c36077fe9d8f3a4d20dcf8ff9",
+        "sha256_in_prefix": "0189d773a34fefc02fa4c6b93ea89940c0d6286c36077fe9d8f3a4d20dcf8ff9",
+        "size_in_bytes": 1280
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/cursor.py",
+        "path_type": "hardlink",
+        "sha256": "00530416166678cb2ab560ad702724b64227eb7cb5a59d91940f46cc25b701bc",
+        "sha256_in_prefix": "00530416166678cb2ab560ad702724b64227eb7cb5a59d91940f46cc25b701bc",
+        "size_in_bytes": 48431
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/dbapi.py",
+        "path_type": "hardlink",
+        "sha256": "e3f522edb5165ec2f7f5fd7b9657fb5df0670da9885bacd37f281fab4d39d6eb",
+        "sha256_in_prefix": "e3f522edb5165ec2f7f5fd7b9657fb5df0670da9885bacd37f281fab4d39d6eb",
+        "size_in_bytes": 1461
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/description.py",
+        "path_type": "hardlink",
+        "sha256": "b3782a3cbed7b472c681f860377f7c55d288280b81b0eafae2fa0ea21194a74a",
+        "sha256_in_prefix": "b3782a3cbed7b472c681f860377f7c55d288280b81b0eafae2fa0ea21194a74a",
+        "size_in_bytes": 615
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/encryption_util.py",
+        "path_type": "hardlink",
+        "sha256": "89dffb03d6a87f8b76052b027b96107d21b2d61b7200b401045782077ce5982c",
+        "sha256_in_prefix": "89dffb03d6a87f8b76052b027b96107d21b2d61b7200b401045782077ce5982c",
+        "size_in_bytes": 8883
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/errorcode.py",
+        "path_type": "hardlink",
+        "sha256": "eb06db69af3e27c9da01417fb1741d3519dc5e08c825e1af2beee26956a05a57",
+        "sha256_in_prefix": "eb06db69af3e27c9da01417fb1741d3519dc5e08c825e1af2beee26956a05a57",
+        "size_in_bytes": 2646
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/errors.py",
+        "path_type": "hardlink",
+        "sha256": "4dbfe3ce0c86d52c5c79ff993c604baa305d477bd2e0577ac4f3d63b17a20fcd",
+        "sha256_in_prefix": "4dbfe3ce0c86d52c5c79ff993c604baa305d477bd2e0577ac4f3d63b17a20fcd",
+        "size_in_bytes": 18435
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/feature.py",
+        "path_type": "hardlink",
+        "sha256": "b75e82827d5eb09ed43d18baaa7072683ffbb3305e6b23efe3c4e3595449c93a",
+        "sha256_in_prefix": "b75e82827d5eb09ed43d18baaa7072683ffbb3305e6b23efe3c4e3595449c93a",
+        "size_in_bytes": 184
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/file_compression_type.py",
+        "path_type": "hardlink",
+        "sha256": "6f134d4c51c32405de821d863b87ec5ea787cda4e021129da89f35ab4bf46279",
+        "sha256_in_prefix": "6f134d4c51c32405de821d863b87ec5ea787cda4e021129da89f35ab4bf46279",
+        "size_in_bytes": 3245
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/file_transfer_agent.py",
+        "path_type": "hardlink",
+        "sha256": "910ce2bd1602301b10ba018f896883002fcbed99f49fa556e2e70e77a56e6158",
+        "sha256_in_prefix": "910ce2bd1602301b10ba018f896883002fcbed99f49fa556e2e70e77a56e6158",
+        "size_in_bytes": 45782
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/file_util.py",
+        "path_type": "hardlink",
+        "sha256": "00cf3321b3fbdc36afecdeb9c3376f11705c2f4ad66379bcd5169c2e26ebd864",
+        "sha256_in_prefix": "00cf3321b3fbdc36afecdeb9c3376f11705c2f4ad66379bcd5169c2e26ebd864",
+        "size_in_bytes": 5427
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/gcs_storage_client.py",
+        "path_type": "hardlink",
+        "sha256": "9eaa62bba434f99432fc7cf3f9a44d12102ff604c92dbb10675c6c9f9a16aad1",
+        "sha256_in_prefix": "9eaa62bba434f99432fc7cf3f9a44d12102ff604c92dbb10675c6c9f9a16aad1",
+        "size_in_bytes": 16054
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/gzip_decoder.py",
+        "path_type": "hardlink",
+        "sha256": "37e6759d7c30c1ec0e8e959337c634826444acd42ba242add440803dc6c13fee",
+        "sha256_in_prefix": "37e6759d7c30c1ec0e8e959337c634826444acd42ba242add440803dc6c13fee",
+        "size_in_bytes": 2761
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/local_storage_client.py",
+        "path_type": "hardlink",
+        "sha256": "e3607181cd8175f3d0e6a2ae6c7f30ed51c45b1ed935144f6c49a212ebdbe53c",
+        "sha256_in_prefix": "e3607181cd8175f3d0e6a2ae6c7f30ed51c45b1ed935144f6c49a212ebdbe53c",
+        "size_in_bytes": 2919
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/mixin.py",
+        "path_type": "hardlink",
+        "sha256": "d0d52f2701ee94e42e83e15b44facdb0f67417947a9b0a6bf099e8c014a9ad5e",
+        "sha256_in_prefix": "d0d52f2701ee94e42e83e15b44facdb0f67417947a9b0a6bf099e8c014a9ad5e",
+        "size_in_bytes": 254
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/network.py",
+        "path_type": "hardlink",
+        "sha256": "fba838f1b0f99db3a65cd40ac94d7790be4b1cefd9eeb8dab7c68aaf34716fb8",
+        "sha256_in_prefix": "fba838f1b0f99db3a65cd40ac94d7790be4b1cefd9eeb8dab7c68aaf34716fb8",
+        "size_in_bytes": 38886
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/ocsp_asn1crypto.py",
+        "path_type": "hardlink",
+        "sha256": "4a6db0eaf98b5f40d38797f76c2802bd83cdecdf8cc2a48d8646a36693404a4f",
+        "sha256_in_prefix": "4a6db0eaf98b5f40d38797f76c2802bd83cdecdf8cc2a48d8646a36693404a4f",
+        "size_in_bytes": 18378
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/ocsp_snowflake.py",
+        "path_type": "hardlink",
+        "sha256": "fc362bf602188cce97b9a3726bec5f2d1124b4deef9c38a0bfa22ff86f4d26b5",
+        "sha256_in_prefix": "fc362bf602188cce97b9a3726bec5f2d1124b4deef9c38a0bfa22ff86f4d26b5",
+        "size_in_bytes": 74977
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/options.py",
+        "path_type": "hardlink",
+        "sha256": "22fdf6bff6ca3ee02ada8ad8f289008c4c9391d49b514d20f31d2b283d664917",
+        "sha256_in_prefix": "22fdf6bff6ca3ee02ada8ad8f289008c4c9391d49b514d20f31d2b283d664917",
+        "size_in_bytes": 4336
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/pandas_tools.py",
+        "path_type": "hardlink",
+        "sha256": "29b866e7965a93ec2491eb3a775c843ccbbb61506df6d1b0564af45360a2f7a6",
+        "sha256_in_prefix": "29b866e7965a93ec2491eb3a775c843ccbbb61506df6d1b0564af45360a2f7a6",
+        "size_in_bytes": 13349
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/proxy.py",
+        "path_type": "hardlink",
+        "sha256": "97c0c10ae4ed902d426640e2b9b189b9363175b28f799918db81a4777095e8d4",
+        "sha256_in_prefix": "97c0c10ae4ed902d426640e2b9b189b9363175b28f799918db81a4777095e8d4",
+        "size_in_bytes": 1486
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/result_batch.py",
+        "path_type": "hardlink",
+        "sha256": "3cec78498fe78d7d260f1196dbe2f9e512ce5c73ad9af71fe1cc0a2b6b4de0ea",
+        "sha256_in_prefix": "3cec78498fe78d7d260f1196dbe2f9e512ce5c73ad9af71fe1cc0a2b6b4de0ea",
+        "size_in_bytes": 25896
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/result_set.py",
+        "path_type": "hardlink",
+        "sha256": "624942eb67d242d703c8a551a04eff335b88f5bed9672e3a9283401c490db5a8",
+        "sha256_in_prefix": "624942eb67d242d703c8a551a04eff335b88f5bed9672e3a9283401c490db5a8",
+        "size_in_bytes": 8808
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/s3_storage_client.py",
+        "path_type": "hardlink",
+        "sha256": "97835ef83bdca2f4cc27eefafc715414f7d160493f473b0283f370f48174ced2",
+        "sha256_in_prefix": "97835ef83bdca2f4cc27eefafc715414f7d160493f473b0283f370f48174ced2",
+        "size_in_bytes": 20673
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/secret_detector.py",
+        "path_type": "hardlink",
+        "sha256": "cfc47f49c1d437f6994608bee2f017b020e8e1123b7ebc24f87b693c1d365f2e",
+        "sha256_in_prefix": "cfc47f49c1d437f6994608bee2f017b020e8e1123b7ebc24f87b693c1d365f2e",
+        "size_in_bytes": 5252
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/sfbinaryformat.py",
+        "path_type": "hardlink",
+        "sha256": "d204ba82c769a8b2f39b08470f6f5f75222d51e61164af23e1673349cdd78953",
+        "sha256_in_prefix": "d204ba82c769a8b2f39b08470f6f5f75222d51e61164af23e1673349cdd78953",
+        "size_in_bytes": 1112
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/sfdatetime.py",
+        "path_type": "hardlink",
+        "sha256": "94a09ceece40a70c62b0f07103c489817c5fed41b6eb56e56e5b39e3f05b92bf",
+        "sha256_in_prefix": "94a09ceece40a70c62b0f07103c489817c5fed41b6eb56e56e5b39e3f05b92bf",
+        "size_in_bytes": 12019
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/snow_logging.py",
+        "path_type": "hardlink",
+        "sha256": "e93e7c8c38ceab5647874e2dafcc841d4ae5d6eedadd54747e65b51ecfc3b2d6",
+        "sha256_in_prefix": "e93e7c8c38ceab5647874e2dafcc841d4ae5d6eedadd54747e65b51ecfc3b2d6",
+        "size_in_bytes": 3213
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/sqlstate.py",
+        "path_type": "hardlink",
+        "sha256": "4499213a8bfa1920cdfa95a3e4ea23f14fcebf0f9eaa8eb48c96e34fade1714b",
+        "sha256_in_prefix": "4499213a8bfa1920cdfa95a3e4ea23f14fcebf0f9eaa8eb48c96e34fade1714b",
+        "size_in_bytes": 432
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/ssd_internal_keys.py",
+        "path_type": "hardlink",
+        "sha256": "b01463130006fce4f53bf7d410618b8cecba893b3ba0dced50c99329a41bd973",
+        "sha256_in_prefix": "b01463130006fce4f53bf7d410618b8cecba893b3ba0dced50c99329a41bd973",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/ssl_wrap_socket.py",
+        "path_type": "hardlink",
+        "sha256": "e20e7d003b92e7f91183501d121129a3768f5c94d6f68e5b4ef858e07bc08e67",
+        "sha256_in_prefix": "e20e7d003b92e7f91183501d121129a3768f5c94d6f68e5b4ef858e07bc08e67",
+        "size_in_bytes": 4489
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/storage_client.py",
+        "path_type": "hardlink",
+        "sha256": "69330338eff5d0a9cacd4bfca2d9a0451cc0643e1515091f25c5e5ae97d2801a",
+        "sha256_in_prefix": "69330338eff5d0a9cacd4bfca2d9a0451cc0643e1515091f25c5e5ae97d2801a",
+        "size_in_bytes": 16495
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/telemetry.py",
+        "path_type": "hardlink",
+        "sha256": "8e1f61485af1714c2f60943eb525d01be37c3fa0f875ec9c8b865a9e231afe16",
+        "sha256_in_prefix": "8e1f61485af1714c2f60943eb525d01be37c3fa0f875ec9c8b865a9e231afe16",
+        "size_in_bytes": 5253
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/telemetry_oob.py",
+        "path_type": "hardlink",
+        "sha256": "41fdaca85bbe312d40adbd83d5ac247aea102f53a67bfdc8c1a3d79779610a21",
+        "sha256_in_prefix": "41fdaca85bbe312d40adbd83d5ac247aea102f53a67bfdc8c1a3d79779610a21",
+        "size_in_bytes": 17305
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/test_util.py",
+        "path_type": "hardlink",
+        "sha256": "d4210c8b690fff214e7d45a547f01f64215f4c5f9caee3f80bda4acddfaf40b9",
+        "sha256_in_prefix": "d4210c8b690fff214e7d45a547f01f64215f4c5f9caee3f80bda4acddfaf40b9",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/time_util.py",
+        "path_type": "hardlink",
+        "sha256": "fbc1bdceaf635de0356a0a612464e116c06a8e5087e6f0e9cec192fb3df04b78",
+        "sha256_in_prefix": "fbc1bdceaf635de0356a0a612464e116c06a8e5087e6f0e9cec192fb3df04b78",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f14e9cd4a4d336a2112487c8a5a4dd4745deb0ea8b50e446643dac196b335200",
+        "sha256_in_prefix": "f14e9cd4a4d336a2112487c8a5a4dd4745deb0ea8b50e446643dac196b335200",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d864dd05b5e149b00327d98c58cb18c8b74b4d09412b063049c98ba8c448c020",
+        "sha256_in_prefix": "d864dd05b5e149b00327d98c58cb18c8b74b4d09412b063049c98ba8c448c020",
+        "size_in_bytes": 155
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_certs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "40228faf963c1dc7aab39c1f3df2010b420f220dd0a0813a464db8e7546d6d9f",
+        "sha256_in_prefix": "40228faf963c1dc7aab39c1f3df2010b420f220dd0a0813a464db8e7546d6d9f",
+        "size_in_bytes": 1585
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_ocsp_response.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "27a54890c4beb3289a6a932047a47d0f6b476ab0b8f7e89a07362e80eb53eb47",
+        "sha256_in_prefix": "27a54890c4beb3289a6a932047a47d0f6b476ab0b8f7e89a07362e80eb53eb47",
+        "size_in_bytes": 3715
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/dump_ocsp_response_cache.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "afaa4198931409319a14fe64f78fa7e43a392a20d1f79db45ca4a0b890ea3f46",
+        "sha256_in_prefix": "afaa4198931409319a14fe64f78fa7e43a392a20d1f79db45ca4a0b890ea3f46",
+        "size_in_bytes": 4960
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/__pycache__/probe_connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "4862969c21b59cb6b5d5b3b579dd5c87a10a4b3c47d60231a081bdf3bd3afda8",
+        "sha256_in_prefix": "4862969c21b59cb6b5d5b3b579dd5c87a10a4b3c47d60231a081bdf3bd3afda8",
+        "size_in_bytes": 1446
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/dump_certs.py",
+        "path_type": "hardlink",
+        "sha256": "a0533019febe48148d21c3ac190a1360b5be0afffc9105f6c81cb64942e240f4",
+        "sha256_in_prefix": "a0533019febe48148d21c3ac190a1360b5be0afffc9105f6c81cb64942e240f4",
+        "size_in_bytes": 1339
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/dump_ocsp_response.py",
+        "path_type": "hardlink",
+        "sha256": "6098973772b7558432a865e69b1392c240d7bc3054f3518667b5ecdbdd23f207",
+        "sha256_in_prefix": "6098973772b7558432a865e69b1392c240d7bc3054f3518667b5ecdbdd23f207",
+        "size_in_bytes": 4543
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/dump_ocsp_response_cache.py",
+        "path_type": "hardlink",
+        "sha256": "97aa7aa8e7d7e0e7fa84c957c5d4fd63a0900d109303d5660eed6da705c76b09",
+        "sha256_in_prefix": "97aa7aa8e7d7e0e7fa84c957c5d4fd63a0900d109303d5660eed6da705c76b09",
+        "size_in_bytes": 6577
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/tool/probe_connection.py",
+        "path_type": "hardlink",
+        "sha256": "8fd2602e11ef1dca0d3c8df636df2b2141b1d6697b6e31eb03e4f33578cb4691",
+        "sha256_in_prefix": "8fd2602e11ef1dca0d3c8df636df2b2141b1d6697b6e31eb03e4f33578cb4691",
+        "size_in_bytes": 2119
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/util_text.py",
+        "path_type": "hardlink",
+        "sha256": "e758de7324ec4486ecde7fbd0b00d744969f4fd296dd2b5a1b3b1e79ec23a46d",
+        "sha256_in_prefix": "e758de7324ec4486ecde7fbd0b00d744969f4fd296dd2b5a1b3b1e79ec23a46d",
+        "size_in_bytes": 9564
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f14e9cd4a4d336a2112487c8a5a4dd4745deb0ea8b50e446643dac196b335200",
+        "sha256_in_prefix": "f14e9cd4a4d336a2112487c8a5a4dd4745deb0ea8b50e446643dac196b335200",
+        "size_in_bytes": 76
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "720c6ec5146421709d2200bd11fccd3a6eb8953ae265a6a3c80a0804f0c6111f",
+        "sha256_in_prefix": "720c6ec5146421709d2200bd11fccd3a6eb8953ae265a6a3c80a0804f0c6111f",
+        "size_in_bytes": 159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "sha256_in_prefix": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+        "size_in_bytes": 10142
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "d0284f175da4230cc3d0d233a4ca497736e9e31d2bbdd36eda9007fe4c285267",
+        "sha256_in_prefix": "d0284f175da4230cc3d0d233a4ca497736e9e31d2bbdd36eda9007fe4c285267",
+        "size_in_bytes": 4675
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "aff8ca8524bf5f5790ad324221bb27e56a27acb1ec4e7bc6d87869e24f7913a3",
+        "sha256_in_prefix": "aff8ca8524bf5f5790ad324221bb27e56a27acb1ec4e7bc6d87869e24f7913a3",
+        "size_in_bytes": 3773
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/__version__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "64e8ca59eef6b3795590389d772d208d81abaeef238bfbce68a416bfdc4f72a2",
+        "sha256_in_prefix": "64e8ca59eef6b3795590389d772d208d81abaeef238bfbce68a416bfdc4f72a2",
+        "size_in_bytes": 531
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/_internal_utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca23e2e277702911f25eff06a2270f2b930cf3afbbed2df3477fbd8d1d06f47a",
+        "sha256_in_prefix": "ca23e2e277702911f25eff06a2270f2b930cf3afbbed2df3477fbd8d1d06f47a",
+        "size_in_bytes": 1296
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/adapters.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "23a974ee10e641ac6d69f9e2c7d01f8c3b19acc76efc01f836c7864df5d63a3a",
+        "sha256_in_prefix": "23a974ee10e641ac6d69f9e2c7d01f8c3b19acc76efc01f836c7864df5d63a3a",
+        "size_in_bytes": 16892
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/api.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "44b8ee506bbee681fb70b6bc675fca936c547bd28bbab680370829e86ebb774c",
+        "sha256_in_prefix": "44b8ee506bbee681fb70b6bc675fca936c547bd28bbab680370829e86ebb774c",
+        "size_in_bytes": 6671
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/auth.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1caf4be93dd48d84217e12b4c99850ed7ec30f2e98b7fd887f724fe0837427b0",
+        "sha256_in_prefix": "1caf4be93dd48d84217e12b4c99850ed7ec30f2e98b7fd887f724fe0837427b0",
+        "size_in_bytes": 8315
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/certs.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ab4b7c847602b522031a3692eca14eb0b43d4caad57fb1b6d07abff7eeccf569",
+        "sha256_in_prefix": "ab4b7c847602b522031a3692eca14eb0b43d4caad57fb1b6d07abff7eeccf569",
+        "size_in_bytes": 597
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/compat.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42da4adc4228d9c121f2718cf46b323fc10cab831614cbe9498f05b944bfd715",
+        "sha256_in_prefix": "42da4adc4228d9c121f2718cf46b323fc10cab831614cbe9498f05b944bfd715",
+        "size_in_bytes": 1691
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/cookies.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "13e76d5444c5d991d006690255f095d5ddfdb89b6dfd26901bfe90aa1e0ee521",
+        "sha256_in_prefix": "13e76d5444c5d991d006690255f095d5ddfdb89b6dfd26901bfe90aa1e0ee521",
+        "size_in_bytes": 18810
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8127012b044d14f9ad8cf2f76bcb019c163fd332b70557c351484b6d23a329e2",
+        "sha256_in_prefix": "8127012b044d14f9ad8cf2f76bcb019c163fd332b70557c351484b6d23a329e2",
+        "size_in_bytes": 5365
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/help.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "26c915bea5d41a0b433e3f32bd45ed3c300add0527daa2d2456be26b9350c63d",
+        "sha256_in_prefix": "26c915bea5d41a0b433e3f32bd45ed3c300add0527daa2d2456be26b9350c63d",
+        "size_in_bytes": 2885
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/hooks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "9c44b30be5673a4929ba1f07cc39660d37c3c454c4c1b0656872cd318bb124a6",
+        "sha256_in_prefix": "9c44b30be5673a4929ba1f07cc39660d37c3c454c4c1b0656872cd318bb124a6",
+        "size_in_bytes": 968
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/models.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e6ab848a7a79130b1fd70652f0c1e3fd44048c082c65157682b45a9b577d5b60",
+        "sha256_in_prefix": "e6ab848a7a79130b1fd70652f0c1e3fd44048c082c65157682b45a9b577d5b60",
+        "size_in_bytes": 24457
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/sessions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "40eef98ec8e59092f06f8fac4b32981015590fa004e3f514cf0a3fe3b0518025",
+        "sha256_in_prefix": "40eef98ec8e59092f06f8fac4b32981015590fa004e3f514cf0a3fe3b0518025",
+        "size_in_bytes": 19911
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/status_codes.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fcc54c45b4f537504b5c685451cfb92acd904630754a50868c8b4ddf499a3aed",
+        "sha256_in_prefix": "fcc54c45b4f537504b5c685451cfb92acd904630754a50868c8b4ddf499a3aed",
+        "size_in_bytes": 4223
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/structures.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "f7c916dd6aff6ee6de82cb097954d1dbab2bf392c632e64401587f499a525881",
+        "sha256_in_prefix": "f7c916dd6aff6ee6de82cb097954d1dbab2bf392c632e64401587f499a525881",
+        "size_in_bytes": 4436
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__pycache__/utils.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e113dbc630975afedd18f9e10fbbf7b29761ecd101562ac2ee3109621de49df3",
+        "sha256_in_prefix": "e113dbc630975afedd18f9e10fbbf7b29761ecd101562ac2ee3109621de49df3",
+        "size_in_bytes": 23237
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/__version__.py",
+        "path_type": "hardlink",
+        "sha256": "3d91323d348837f8d1200201e75c15ee9c3cd66dea030d089d247b3ab2995271",
+        "sha256_in_prefix": "3d91323d348837f8d1200201e75c15ee9c3cd66dea030d089d247b3ab2995271",
+        "size_in_bytes": 441
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/_internal_utils.py",
+        "path_type": "hardlink",
+        "sha256": "671dcf9c451c7327ec07e89ed759d95405bca82949cb4831d6a34c13bae04f5f",
+        "sha256_in_prefix": "671dcf9c451c7327ec07e89ed759d95405bca82949cb4831d6a34c13bae04f5f",
+        "size_in_bytes": 1096
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/adapters.py",
+        "path_type": "hardlink",
+        "sha256": "1cb57a7c3a7f910e9811b924f22add891d6f52699d1dd5d81d2f6465b1e4a8f0",
+        "sha256_in_prefix": "1cb57a7c3a7f910e9811b924f22add891d6f52699d1dd5d81d2f6465b1e4a8f0",
+        "size_in_bytes": 21378
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/api.py",
+        "path_type": "hardlink",
+        "sha256": "863ba83fbf48004997e83cacaf0f2dd37d9c2dfc0b1f16c8ff0338802e46f6dd",
+        "sha256_in_prefix": "863ba83fbf48004997e83cacaf0f2dd37d9c2dfc0b1f16c8ff0338802e46f6dd",
+        "size_in_bytes": 6402
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/auth.py",
+        "path_type": "hardlink",
+        "sha256": "38ca092152b244bcbd4c7afdd72f2bc72b19b9c9703c1f8ad57835cc1a265214",
+        "sha256_in_prefix": "38ca092152b244bcbd4c7afdd72f2bc72b19b9c9703c1f8ad57835cc1a265214",
+        "size_in_bytes": 10207
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/certs.py",
+        "path_type": "hardlink",
+        "sha256": "74e079ad5d83675ddd121abd0546bfe21779900aa0e7d7bfcd4641d347da633f",
+        "sha256_in_prefix": "74e079ad5d83675ddd121abd0546bfe21779900aa0e7d7bfcd4641d347da633f",
+        "size_in_bytes": 453
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/compat.py",
+        "path_type": "hardlink",
+        "sha256": "d1fcc76cbbdf9c58b6591d28ed792bbd7944946d3f56042698e822a2869787f6",
+        "sha256_in_prefix": "d1fcc76cbbdf9c58b6591d28ed792bbd7944946d3f56042698e822a2869787f6",
+        "size_in_bytes": 1852
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/cookies.py",
+        "path_type": "hardlink",
+        "sha256": "63e6ca5fa4ef5b716762513a02ed125ed55559c68d745bee030431c3e1b48932",
+        "sha256_in_prefix": "63e6ca5fa4ef5b716762513a02ed125ed55559c68d745bee030431c3e1b48932",
+        "size_in_bytes": 18430
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "b0717cafb3c4ef1f996e59687940bdcc1d19a8b8e12b1f5577d49bad2092951b",
+        "sha256_in_prefix": "b0717cafb3c4ef1f996e59687940bdcc1d19a8b8e12b1f5577d49bad2092951b",
+        "size_in_bytes": 3240
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/help.py",
+        "path_type": "hardlink",
+        "sha256": "2aded5f85ea8ac9563fadcf034b4deb3dd7a398fe750690fed89dd7f84abcf7e",
+        "sha256_in_prefix": "2aded5f85ea8ac9563fadcf034b4deb3dd7a398fe750690fed89dd7f84abcf7e",
+        "size_in_bytes": 3978
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/hooks.py",
+        "path_type": "hardlink",
+        "sha256": "411786cb2d1b45caf9ae4c02b8e6cd6a46d8b1cec492229e0701b8a877a4af64",
+        "sha256_in_prefix": "411786cb2d1b45caf9ae4c02b8e6cd6a46d8b1cec492229e0701b8a877a4af64",
+        "size_in_bytes": 757
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/models.py",
+        "path_type": "hardlink",
+        "sha256": "ce6a0f38907e8b7ba7837df2f1c2cf4424e2190cdb7d8b2321036dd8409d3b0d",
+        "sha256_in_prefix": "ce6a0f38907e8b7ba7837df2f1c2cf4424e2190cdb7d8b2321036dd8409d3b0d",
+        "size_in_bytes": 34867
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/sessions.py",
+        "path_type": "hardlink",
+        "sha256": "e7b3b8b9df7244be9e2d887e76d15ba82d643b877f13065c0a0617124ba395fb",
+        "sha256_in_prefix": "e7b3b8b9df7244be9e2d887e76d15ba82d643b877f13065c0a0617124ba395fb",
+        "size_in_bytes": 30168
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/status_codes.py",
+        "path_type": "hardlink",
+        "sha256": "813efd3dbb3f7108c1829f9fbeb520835767d8340edf66c38f84c89e39cc3d27",
+        "sha256_in_prefix": "813efd3dbb3f7108c1829f9fbeb520835767d8340edf66c38f84c89e39cc3d27",
+        "size_in_bytes": 4188
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/structures.py",
+        "path_type": "hardlink",
+        "sha256": "9ac02dafd9aad49c4777e251ca220b7dd165a5b270bef16e3f7adf5104ff4311",
+        "sha256_in_prefix": "9ac02dafd9aad49c4777e251ca220b7dd165a5b270bef16e3f7adf5104ff4311",
+        "size_in_bytes": 3005
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/requests/utils.py",
+        "path_type": "hardlink",
+        "sha256": "9114f113aaaba25a0475ba3fc01329c08c3c8551b35e6ae438c35193caa059c4",
+        "sha256_in_prefix": "9114f113aaaba25a0475ba3fc01329c08c3c8551b35e6ae438c35193caa059c4",
+        "size_in_bytes": 31384
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+        "sha256_in_prefix": "c37bf186e27cf9dbe9619e55edfe3cea7b30091ceb3da63c7dacbe0e6d77907b",
+        "size_in_bytes": 1115
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8f7cb31c86e65bb092f8829027df8f3d07ff60a3bc10e01ecbfacc5b4511eeeb",
+        "sha256_in_prefix": "8f7cb31c86e65bb092f8829027df8f3d07ff60a3bc10e01ecbfacc5b4511eeeb",
+        "size_in_bytes": 2763
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "360f4512f6bc287d210cfbd41a144975e849b7219ab759e53e6ea4cc3d1a7fe9",
+        "sha256_in_prefix": "360f4512f6bc287d210cfbd41a144975e849b7219ab759e53e6ea4cc3d1a7fe9",
+        "size_in_bytes": 2165
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/_collections.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1d911c676d5bb7b94ed0c6b6c79ec8cb1bb53bb4d1b4fc088f296686680069f1",
+        "sha256_in_prefix": "1d911c676d5bb7b94ed0c6b6c79ec8cb1bb53bb4d1b4fc088f296686680069f1",
+        "size_in_bytes": 10678
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/_version.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "0ef6617b160064ab9ea052f84cb205a500713192e423618a9cb637cddb36ec1c",
+        "sha256_in_prefix": "0ef6617b160064ab9ea052f84cb205a500713192e423618a9cb637cddb36ec1c",
+        "size_in_bytes": 189
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6d87218b70a1239e54e066bea52b78ba0f7399bd3c3e9a2c108866f41c2458a8",
+        "sha256_in_prefix": "6d87218b70a1239e54e066bea52b78ba0f7399bd3c3e9a2c108866f41c2458a8",
+        "size_in_bytes": 13356
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/connectionpool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c5c81a85e5c49a61604ca422e429b745354fc536c58aaf5aa977bf99effda2f0",
+        "sha256_in_prefix": "c5c81a85e5c49a61604ca422e429b745354fc536c58aaf5aa977bf99effda2f0",
+        "size_in_bytes": 24428
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/exceptions.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ba85ede7b30dae2f7c5161c33b934d526239931fd3403071e539a60965ec629",
+        "sha256_in_prefix": "7ba85ede7b30dae2f7c5161c33b934d526239931fd3403071e539a60965ec629",
+        "size_in_bytes": 11622
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/fields.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b180a971c14b39b054a02b31913feb37cd1342a0635e69e127f410789311b2f3",
+        "sha256_in_prefix": "b180a971c14b39b054a02b31913feb37cd1342a0635e69e127f410789311b2f3",
+        "size_in_bytes": 8159
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/filepost.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8d33c1bf5218f060da96ffa2b0a86503e69fa520599828c0b7ac25dabdf3a1fe",
+        "sha256_in_prefix": "8d33c1bf5218f060da96ffa2b0a86503e69fa520599828c0b7ac25dabdf3a1fe",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/poolmanager.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1b264bce15b625f7110a2cb203a979c42801db25a40d01cb58109f6d5434b323",
+        "sha256_in_prefix": "1b264bce15b625f7110a2cb203a979c42801db25a40d01cb58109f6d5434b323",
+        "size_in_bytes": 15104
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/request.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a8c29c347f2adbdf3a5f55f8b2ec52224c16a7dc8f285c66ce5759eab6da3a66",
+        "sha256_in_prefix": "a8c29c347f2adbdf3a5f55f8b2ec52224c16a7dc8f285c66ce5759eab6da3a66",
+        "size_in_bytes": 5602
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/__pycache__/response.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "a81d546023a7192fdbc2363ce8135adc52750a56fdf9e08bbc1394c38445c37c",
+        "sha256_in_prefix": "a81d546023a7192fdbc2363ce8135adc52750a56fdf9e08bbc1394c38445c37c",
+        "size_in_bytes": 20702
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/_collections.py",
+        "path_type": "hardlink",
+        "sha256": "469d6657206073f52501ca7a3376add6c909057479278dcd6b0453bd6da0fd76",
+        "sha256_in_prefix": "469d6657206073f52501ca7a3376add6c909057479278dcd6b0453bd6da0fd76",
+        "size_in_bytes": 10811
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/_version.py",
+        "path_type": "hardlink",
+        "sha256": "e9f24020f9c9913d26f70cd58c7ac572ae7062deb9752b43a5a45c8e3e6e828a",
+        "sha256_in_prefix": "e9f24020f9c9913d26f70cd58c7ac572ae7062deb9752b43a5a45c8e3e6e828a",
+        "size_in_bytes": 63
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connection.py",
+        "path_type": "hardlink",
+        "sha256": "90096e6f0b16df7154494ae83d2547305fd9ceffaecd7fc1c1414c5d7f4fb7c7",
+        "sha256_in_prefix": "90096e6f0b16df7154494ae83d2547305fd9ceffaecd7fc1c1414c5d7f4fb7c7",
+        "size_in_bytes": 18754
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/connectionpool.py",
+        "path_type": "hardlink",
+        "sha256": "8d73669b8cb72c959882d78d786718271f3ed24edbcca454fff0154d7cda21a9",
+        "sha256_in_prefix": "8d73669b8cb72c959882d78d786718271f3ed24edbcca454fff0154d7cda21a9",
+        "size_in_bytes": 37131
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c45393e3935d1b8f7b4b5c380dcb3258746cc7ae81308e552b9877bfeed545b0",
+        "sha256_in_prefix": "c45393e3935d1b8f7b4b5c380dcb3258746cc7ae81308e552b9877bfeed545b0",
+        "size_in_bytes": 175
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/_appengine_environ.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d2972a3e6a7649948eeab212ee6992d4ecc49f491b7561aa637407c302d8bbc7",
+        "sha256_in_prefix": "d2972a3e6a7649948eeab212ee6992d4ecc49f491b7561aa637407c302d8bbc7",
+        "size_in_bytes": 1399
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/appengine.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "53ef41a5a4dabca8ca07afe1cfaf9d06f8ff7f5c6a63d73b2694ec634a31f22e",
+        "sha256_in_prefix": "53ef41a5a4dabca8ca07afe1cfaf9d06f8ff7f5c6a63d73b2694ec634a31f22e",
+        "size_in_bytes": 8224
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/ntlmpool.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "2fff490df4e852b364f53fdf5e1a6c0937733c6f85c638cb843fee17a4500881",
+        "sha256_in_prefix": "2fff490df4e852b364f53fdf5e1a6c0937733c6f85c638cb843fee17a4500881",
+        "size_in_bytes": 3618
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/pyopenssl.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "35881eca882ebe0a3b594e75ed5eee73be2a20a1db4e980a841e012146f2cfb4",
+        "sha256_in_prefix": "35881eca882ebe0a3b594e75ed5eee73be2a20a1db4e980a841e012146f2cfb4",
+        "size_in_bytes": 15552
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/securetransport.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c6018f7f3f9592c81a096c2bae9aa2f2c2a56fda6d1e0676d2a322725423cbd3",
+        "sha256_in_prefix": "c6018f7f3f9592c81a096c2bae9aa2f2c2a56fda6d1e0676d2a322725423cbd3",
+        "size_in_bytes": 21597
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/__pycache__/socks.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f6f6f3a92f2c38d43fd12aaac88b0fa5d05977168d7c490f46ec9ff583ed3e4",
+        "sha256_in_prefix": "8f6f6f3a92f2c38d43fd12aaac88b0fa5d05977168d7c490f46ec9ff583ed3e4",
+        "size_in_bytes": 5613
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_appengine_environ.py",
+        "path_type": "hardlink",
+        "sha256": "6c36f2384856d8228b25c42a00a032ac41cdf9a925b321c52aaeaf17c645b269",
+        "sha256_in_prefix": "6c36f2384856d8228b25c42a00a032ac41cdf9a925b321c52aaeaf17c645b269",
+        "size_in_bytes": 957
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "d7d8545e9697fd6019d65fab983b7ea770b8a3c0417d5086b9ad09ae76f7b2eb",
+        "sha256_in_prefix": "d7d8545e9697fd6019d65fab983b7ea770b8a3c0417d5086b9ad09ae76f7b2eb",
+        "size_in_bytes": 192
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/bindings.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "fe15e31b75ad2c0393d52ccef1f0f5e7ce2b9001fd6f66fdc9a2037f20cfbc5b",
+        "sha256_in_prefix": "fe15e31b75ad2c0393d52ccef1f0f5e7ce2b9001fd6f66fdc9a2037f20cfbc5b",
+        "size_in_bytes": 10713
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/__pycache__/low_level.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "bcae265dbbb71c6518121c9653e28a1f96ab8195948c6f7af6099309f9632bc4",
+        "sha256_in_prefix": "bcae265dbbb71c6518121c9653e28a1f96ab8195948c6f7af6099309f9632bc4",
+        "size_in_bytes": 9080
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/bindings.py",
+        "path_type": "hardlink",
+        "sha256": "135ffb49cb2039c85fc677a8cdb02e78aef3882c05df97e76b80ee0c2609f7fa",
+        "sha256_in_prefix": "135ffb49cb2039c85fc677a8cdb02e78aef3882c05df97e76b80ee0c2609f7fa",
+        "size_in_bytes": 17637
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/_securetransport/low_level.py",
+        "path_type": "hardlink",
+        "sha256": "96021db12c9ca9f0745e6e41889cd719e20a4fbc9b0903053c902091cc0f6b5b",
+        "sha256_in_prefix": "96021db12c9ca9f0745e6e41889cd719e20a4fbc9b0903053c902091cc0f6b5b",
+        "size_in_bytes": 13908
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/appengine.py",
+        "path_type": "hardlink",
+        "sha256": "8f3e75e636580431539e1478cea7de682a3a25d0e0010a986eacc72bdb0391fc",
+        "sha256_in_prefix": "8f3e75e636580431539e1478cea7de682a3a25d0e0010a986eacc72bdb0391fc",
+        "size_in_bytes": 11010
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/ntlmpool.py",
+        "path_type": "hardlink",
+        "sha256": "7a3f601af7c06f61add3495a7c5a78e52228473f90c2b438582866ea04260253",
+        "sha256_in_prefix": "7a3f601af7c06f61add3495a7c5a78e52228473f90c2b438582866ea04260253",
+        "size_in_bytes": 4538
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/pyopenssl.py",
+        "path_type": "hardlink",
+        "sha256": "6083324e25e22cf57f41f170dcf8d9df5986a8998ce44cf12238522f167b5543",
+        "sha256_in_prefix": "6083324e25e22cf57f41f170dcf8d9df5986a8998ce44cf12238522f167b5543",
+        "size_in_bytes": 16874
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/securetransport.py",
+        "path_type": "hardlink",
+        "sha256": "8b3771e37805a141854a0c5ab1994e08be3615a338bd2b005539a13b4107d6f3",
+        "sha256_in_prefix": "8b3771e37805a141854a0c5ab1994e08be3615a338bd2b005539a13b4107d6f3",
+        "size_in_bytes": 34417
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/contrib/socks.py",
+        "path_type": "hardlink",
+        "sha256": "6918bd7965e8f5911bf795d4c5e7f8676d421659e78db122028f473ac7a832de",
+        "sha256_in_prefix": "6918bd7965e8f5911bf795d4c5e7f8676d421659e78db122028f473ac7a832de",
+        "size_in_bytes": 7097
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "d0c9e7a372874cd7d745f63beb7f0db9f38f9146fa9973a6f8baa3fb8c76c3c0",
+        "sha256_in_prefix": "d0c9e7a372874cd7d745f63beb7f0db9f38f9146fa9973a6f8baa3fb8c76c3c0",
+        "size_in_bytes": 8217
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/fields.py",
+        "path_type": "hardlink",
+        "sha256": "92f2c30a0fc9987d652e3514118fc52d2f14858ee106f0cfb951136d8f2676b3",
+        "sha256_in_prefix": "92f2c30a0fc9987d652e3514118fc52d2f14858ee106f0cfb951136d8f2676b3",
+        "size_in_bytes": 8579
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/filepost.py",
+        "path_type": "hardlink",
+        "sha256": "e5bfeaaa04475652fbb8bb5d018073061f861e653901f255b7fd8dd174b73de6",
+        "sha256_in_prefix": "e5bfeaaa04475652fbb8bb5d018073061f861e653901f255b7fd8dd174b73de6",
+        "size_in_bytes": 2440
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "87804b843e2d2da071d5a75a0ed2977eea6c82a634c162d76ff7f5ff256557a0",
+        "sha256_in_prefix": "87804b843e2d2da071d5a75a0ed2977eea6c82a634c162d76ff7f5ff256557a0",
+        "size_in_bytes": 108
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "31d0c28b8fe19781123e2f72a3e33050063419303e20a8af775bd3cc73894b47",
+        "sha256_in_prefix": "31d0c28b8fe19781123e2f72a3e33050063419303e20a8af775bd3cc73894b47",
+        "size_in_bytes": 289
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/__pycache__/six.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1effa713693b8cf6f37655cfe1c5bac16c90fa3c4dbcb3eac5ba4f8c789b217b",
+        "sha256_in_prefix": "1effa713693b8cf6f37655cfe1c5bac16c90fa3c4dbcb3eac5ba4f8c789b217b",
+        "size_in_bytes": 27571
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "e37d3a4e34a9f1f7107af7c3078dc03107f049e877403323333b9887f20111d7",
+        "sha256_in_prefix": "e37d3a4e34a9f1f7107af7c3078dc03107f049e877403323333b9887f20111d7",
+        "size_in_bytes": 186
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/__pycache__/makefile.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "c58c7246a2b1d762285eeafddcbc1bf6a0254b0fa0ab72907a4861a8ef31aaa5",
+        "sha256_in_prefix": "c58c7246a2b1d762285eeafddcbc1bf6a0254b0fa0ab72907a4861a8ef31aaa5",
+        "size_in_bytes": 1290
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/backports/makefile.py",
+        "path_type": "hardlink",
+        "sha256": "9dbcedde2d1a80f54fd3b8eaaa08e16988cc9ae022fd6e44d04cb0662bd53bc1",
+        "sha256_in_prefix": "9dbcedde2d1a80f54fd3b8eaaa08e16988cc9ae022fd6e44d04cb0662bd53bc1",
+        "size_in_bytes": 1417
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/six.py",
+        "path_type": "hardlink",
+        "sha256": "d4b556ee58ea462ac595f1318f097ebf507bbd20143539b318cb3ea9acacdb38",
+        "sha256_in_prefix": "d4b556ee58ea462ac595f1318f097ebf507bbd20143539b318cb3ea9acacdb38",
+        "size_in_bytes": 34666
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6553300a41f1fa9cbc111b31c4cdc897e322444664b55fbc88b06609f4511c8e",
+        "sha256_in_prefix": "6553300a41f1fa9cbc111b31c4cdc897e322444664b55fbc88b06609f4511c8e",
+        "size_in_bytes": 927
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "73bfe1a608e34ec5e3cf7d147c7566e123a9318a483f7790b8476c5d0c000ed6",
+        "sha256_in_prefix": "73bfe1a608e34ec5e3cf7d147c7566e123a9318a483f7790b8476c5d0c000ed6",
+        "size_in_bytes": 552
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/__pycache__/_implementation.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c9f1b6d822fbb8b9fa68af5da296fd049b08ce79504f2bd4af4c05c89f32336",
+        "sha256_in_prefix": "1c9f1b6d822fbb8b9fa68af5da296fd049b08ce79504f2bd4af4c05c89f32336",
+        "size_in_bytes": 3287
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/packages/ssl_match_hostname/_implementation.py",
+        "path_type": "hardlink",
+        "sha256": "e9d67eab4ef883b5e1b09dbb3050a091cb7c895359077b0c66f2a17fe294572d",
+        "sha256_in_prefix": "e9d67eab4ef883b5e1b09dbb3050a091cb7c895359077b0c66f2a17fe294572d",
+        "size_in_bytes": 5679
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/poolmanager.py",
+        "path_type": "hardlink",
+        "sha256": "c21ce55fa51312038330e0b2d190cc50e351042cf9c3220cf19f68a57018f8b9",
+        "sha256_in_prefix": "c21ce55fa51312038330e0b2d190cc50e351042cf9c3220cf19f68a57018f8b9",
+        "size_in_bytes": 19763
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/request.py",
+        "path_type": "hardlink",
+        "sha256": "645488a97d02e968b38b179c0a1677fe8932bbb044bf4959bb5553d2cea1e123",
+        "sha256_in_prefix": "645488a97d02e968b38b179c0a1677fe8932bbb044bf4959bb5553d2cea1e123",
+        "size_in_bytes": 5985
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/response.py",
+        "path_type": "hardlink",
+        "sha256": "846846061ed3904921fc8420e42d56ff1b8f36b8082afe415173f213eab42ee1",
+        "sha256_in_prefix": "846846061ed3904921fc8420e42d56ff1b8f36b8082afe415173f213eab42ee1",
+        "size_in_bytes": 28203
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2449929a6aaa2f26b0f0fe75814226661f06c20f62d7349ef83a2a022b67da77",
+        "sha256_in_prefix": "2449929a6aaa2f26b0f0fe75814226661f06c20f62d7349ef83a2a022b67da77",
+        "size_in_bytes": 1155
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "6c2c67919de96b5619c8e53048b7f7d84d52ff427d5823e8fd466f6c3b6b3422",
+        "sha256_in_prefix": "6c2c67919de96b5619c8e53048b7f7d84d52ff427d5823e8fd466f6c3b6b3422",
+        "size_in_bytes": 1085
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/connection.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8564e73cdab6656cef1ef80a7915afacc2d68da832b34ab59b7643a07bf260a1",
+        "sha256_in_prefix": "8564e73cdab6656cef1ef80a7915afacc2d68da832b34ab59b7643a07bf260a1",
+        "size_in_bytes": 3431
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/proxy.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "42e1bda5a76b2aa99e5b2e6493eabe5b54aa6d38c0181306d49b6fc7b2836798",
+        "sha256_in_prefix": "42e1bda5a76b2aa99e5b2e6493eabe5b54aa6d38c0181306d49b6fc7b2836798",
+        "size_in_bytes": 1329
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/queue.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b9d3bfc7646319deafcf605802eb7cb65f017af53a1547fb9e287b48a2745f7",
+        "sha256_in_prefix": "3b9d3bfc7646319deafcf605802eb7cb65f017af53a1547fb9e287b48a2745f7",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/request.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "b608d8638ec444ef2179a8373f6722ac0c9cb67a79996caf70cbd32bbdffcd3b",
+        "sha256_in_prefix": "b608d8638ec444ef2179a8373f6722ac0c9cb67a79996caf70cbd32bbdffcd3b",
+        "size_in_bytes": 3434
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/response.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "598e4f9d4f804feafd298bc3c0656cdfad0f1a17b45a9c848615e9f450072eb5",
+        "sha256_in_prefix": "598e4f9d4f804feafd298bc3c0656cdfad0f1a17b45a9c848615e9f450072eb5",
+        "size_in_bytes": 2333
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/retry.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "758e1bfe9b00845bb424ab1024eac1ce32d044879e6cfc34bda138335a29de33",
+        "sha256_in_prefix": "758e1bfe9b00845bb424ab1024eac1ce32d044879e6cfc34bda138335a29de33",
+        "size_in_bytes": 15828
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/ssl_.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "142b6e5dcc4334e4108efd74d88294dae5aa77338fe9a7f2465c5b156834d873",
+        "sha256_in_prefix": "142b6e5dcc4334e4108efd74d88294dae5aa77338fe9a7f2465c5b156834d873",
+        "size_in_bytes": 11360
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/ssltransport.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8219d3d29136fb1156c3e5f8a721bd42e753e06e3dbf51936eeafedba06417df",
+        "sha256_in_prefix": "8219d3d29136fb1156c3e5f8a721bd42e753e06e3dbf51936eeafedba06417df",
+        "size_in_bytes": 7430
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/timeout.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee92c038c1a04a757792f5cf6d81e31814e782572ff4a6bd0827c5ba80839fa7",
+        "sha256_in_prefix": "ee92c038c1a04a757792f5cf6d81e31814e782572ff4a6bd0827c5ba80839fa7",
+        "size_in_bytes": 8927
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/url.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c0e938df27d6d736869ea8fc7e36540534a63bf4b2b5f5288ab35dde7bc43ab",
+        "sha256_in_prefix": "1c0e938df27d6d736869ea8fc7e36540534a63bf4b2b5f5288ab35dde7bc43ab",
+        "size_in_bytes": 10730
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/__pycache__/wait.cpython-38.pyc",
+        "path_type": "hardlink",
+        "sha256": "8bfcf2f0f4586e6e9e6cd73dced12d584b3ecc20e2b35ccb93667dba92ff738c",
+        "sha256_in_prefix": "8bfcf2f0f4586e6e9e6cd73dced12d584b3ecc20e2b35ccb93667dba92ff738c",
+        "size_in_bytes": 3087
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/connection.py",
+        "path_type": "hardlink",
+        "sha256": "67d26e7c3d7754d7206ba4535b5c112142db59dc6c3c4d160948b955379b00b0",
+        "sha256_in_prefix": "67d26e7c3d7754d7206ba4535b5c112142db59dc6c3c4d160948b955379b00b0",
+        "size_in_bytes": 4908
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/proxy.py",
+        "path_type": "hardlink",
+        "sha256": "1468a90049ef66d7b295d5cd8dc7b80c407b633c14f9ae657a9f32e52d2a1d08",
+        "sha256_in_prefix": "1468a90049ef66d7b295d5cd8dc7b80c407b633c14f9ae657a9f32e52d2a1d08",
+        "size_in_bytes": 1604
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/queue.py",
+        "path_type": "hardlink",
+        "sha256": "9d1817f3f797fbf564bf1a17d3de905a8cfc3ecd101d4004c482c263fecf9dc3",
+        "sha256_in_prefix": "9d1817f3f797fbf564bf1a17d3de905a8cfc3ecd101d4004c482c263fecf9dc3",
+        "size_in_bytes": 498
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/request.py",
+        "path_type": "hardlink",
+        "sha256": "367cda10a4353dabb0e4c14c57a1e68043072137f402e6bd7d0bb38b6b99cc67",
+        "sha256_in_prefix": "367cda10a4353dabb0e4c14c57a1e68043072137f402e6bd7d0bb38b6b99cc67",
+        "size_in_bytes": 4123
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/response.py",
+        "path_type": "hardlink",
+        "sha256": "189a60dc4822f6a6895d1c01879c2ff8c36e4566a7e4122ee34a117a8c563f6f",
+        "sha256_in_prefix": "189a60dc4822f6a6895d1c01879c2ff8c36e4566a7e4122ee34a117a8c563f6f",
+        "size_in_bytes": 3510
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/retry.py",
+        "path_type": "hardlink",
+        "sha256": "b4e59f6692ecb9ced56e4e675a933090774ca170a9f74200bc7e31b6348346a4",
+        "sha256_in_prefix": "b4e59f6692ecb9ced56e4e675a933090774ca170a9f74200bc7e31b6348346a4",
+        "size_in_bytes": 21391
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/ssl_.py",
+        "path_type": "hardlink",
+        "sha256": "734b188920badbbdabeae3e4c50a68e6b60f3fd402d5e47aa08ef4d38818a99a",
+        "sha256_in_prefix": "734b188920badbbdabeae3e4c50a68e6b60f3fd402d5e47aa08ef4d38818a99a",
+        "size_in_bytes": 17165
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/ssltransport.py",
+        "path_type": "hardlink",
+        "sha256": "ddb2c1a983ebc93f543066f1e624603206f6b23ed510aa79a66443d60f1de952",
+        "sha256_in_prefix": "ddb2c1a983ebc93f543066f1e624603206f6b23ed510aa79a66443d60f1de952",
+        "size_in_bytes": 6907
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/timeout.py",
+        "path_type": "hardlink",
+        "sha256": "4126c150d381f7287a0270e7eb54ab2d0d21839a33d08f7eb97106f75009b888",
+        "sha256_in_prefix": "4126c150d381f7287a0270e7eb54ab2d0d21839a33d08f7eb97106f75009b888",
+        "size_in_bytes": 10003
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/url.py",
+        "path_type": "hardlink",
+        "sha256": "6aef6391432756bf50a7ff648381df671f6af6eafac97438bb9335ec89fe50a6",
+        "sha256_in_prefix": "6aef6391432756bf50a7ff648381df671f6af6eafac97438bb9335ec89fe50a6",
+        "size_in_bytes": 14030
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/vendored/urllib3/util/wait.py",
+        "path_type": "hardlink",
+        "sha256": "dcc50a452014243076b60728eea454b245b4cd7180598bd1444e10d7feb194bb",
+        "sha256_in_prefix": "dcc50a452014243076b60728eea454b245b4cd7180598bd1444e10d7feb194bb",
+        "size_in_bytes": 5404
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake/connector/version.py",
+        "path_type": "hardlink",
+        "sha256": "d4b2c92bffffe5b8d3240916fd5e9d603d7d77afa22bdd35df49e0c9a1f916fd",
+        "sha256_in_prefix": "d4b2c92bffffe5b8d3240916fd5e9d603d7d77afa22bdd35df49e0c9a1f916fd",
+        "size_in_bytes": 107
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7-py3.8-nspkg.pth",
+        "path_type": "hardlink",
+        "sha256": "f0cb34144fbfffda273d5fdfd71edb753b7d2acfa268536e51c4d6ba005f8ca0",
+        "sha256_in_prefix": "f0cb34144fbfffda273d5fdfd71edb753b7d2acfa268536e51c4d6ba005f8ca0",
+        "size_in_bytes": 554
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "e5b8371f9079f7dd9d1354f968a7b85434a7d6a5f927bf2c2a0999ee6635d5a6",
+        "sha256_in_prefix": "e5b8371f9079f7dd9d1354f968a7b85434a7d6a5f927bf2c2a0999ee6635d5a6",
+        "size_in_bytes": 41673
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/NOTICE",
+        "path_type": "hardlink",
+        "sha256": "b2bc8ed8c785ecb9fcdb03186dee7f1f34240ea912c3648249b00757616a271e",
+        "sha256_in_prefix": "b2bc8ed8c785ecb9fcdb03186dee7f1f34240ea912c3648249b00757616a271e",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "cefef87db74013e95f7da4b8bbc56f36d0b658826877df2dcf37c9e750094ca1",
+        "sha256_in_prefix": "cefef87db74013e95f7da4b8bbc56f36d0b658826877df2dcf37c9e750094ca1",
+        "size_in_bytes": 26866
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "a572e98f5c13bea943e9155410a3ae19019e157d0d38fc83aec0bef715439985",
+        "sha256_in_prefix": "a572e98f5c13bea943e9155410a3ae19019e157d0d38fc83aec0bef715439985",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "bc836ed4fc6793f0803c75b1565fcaa240101441ed6d4dda8ec238866de4989d",
+        "sha256_in_prefix": "bc836ed4fc6793f0803c75b1565fcaa240101441ed6d4dda8ec238866de4989d",
+        "size_in_bytes": 114
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3bea45dc2b23f4823ea22513e4236337a067d0eb0dd26a8e799efab7cb68a9d3",
+        "sha256_in_prefix": "3bea45dc2b23f4823ea22513e4236337a067d0eb0dd26a8e799efab7cb68a9d3",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "4d8d201521ca0dd672dd31dbd051a89b28a45906ac10695d211d4ed0718e1d5c",
+        "sha256_in_prefix": "4d8d201521ca0dd672dd31dbd051a89b28a45906ac10695d211d4ed0718e1d5c",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "lib/python3.8/site-packages/snowflake_connector_python-2.7.7.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4d8d201521ca0dd672dd31dbd051a89b28a45906ac10695d211d4ed0718e1d5c",
+        "sha256_in_prefix": "4d8d201521ca0dd672dd31dbd051a89b28a45906ac10695d211d4ed0718e1d5c",
+        "size_in_bytes": 10
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "snowflake-connector-python=2.7.7",
+  "sha256": "2b984c5ad493020a52238e745d2c6716c0865f4f08fcb31bcf101603c934e683",
+  "size": 696129,
+  "subdir": "osx-64",
+  "timestamp": 1651337735818,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/snowflake-connector-python-2.7.7-py38h70d6af8_0.tar.bz2",
+  "version": "2.7.7"
+}

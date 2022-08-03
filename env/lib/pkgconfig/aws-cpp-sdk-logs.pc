@@ -1,0 +1,10 @@
+includedir=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env/include
+libdir=/Users/bluntsord/Documents/Projects/GIC-Test/Temp/env/lib
+
+Name: aws-cpp-sdk-logs
+Description: 
+Version: 1.8.186
+Cflags: -I${includedir} -fno-exceptions -std=c++11
+Libs: -L${libdir} -laws-cpp-sdk-logs 
+Libs.private: 
+Requires:  aws-cpp-sdk-core

@@ -1,0 +1,1052 @@
+{
+  "build": "pyhd3deb0d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "asn1crypto >=1.0.0",
+    "python"
+  ],
+  "extracted_package_dir": "/opt/homebrew/anaconda3/pkgs/oscrypto-1.2.1-pyhd3deb0d_0",
+  "features": "",
+  "files": [
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/INSTALLER",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/LICENSE",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/METADATA",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/RECORD",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/REQUESTED",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/WHEEL",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/direct_url.json",
+    "lib/python3.8/site-packages/oscrypto-1.2.1.dist-info/top_level.txt",
+    "lib/python3.8/site-packages/oscrypto/__init__.py",
+    "lib/python3.8/site-packages/oscrypto/_asn1.py",
+    "lib/python3.8/site-packages/oscrypto/_asymmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_cipher_suites.py",
+    "lib/python3.8/site-packages/oscrypto/_ecdsa.py",
+    "lib/python3.8/site-packages/oscrypto/_errors.py",
+    "lib/python3.8/site-packages/oscrypto/_ffi.py",
+    "lib/python3.8/site-packages/oscrypto/_int.py",
+    "lib/python3.8/site-packages/oscrypto/_linux_bsd/__init__.py",
+    "lib/python3.8/site-packages/oscrypto/_linux_bsd/trust_list.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/__init__.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_common_crypto.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_common_crypto_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_common_crypto_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_core_foundation.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_core_foundation_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_core_foundation_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_security.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_security_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/_security_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/asymmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/symmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/tls.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/trust_list.py",
+    "lib/python3.8/site-packages/oscrypto/_mac/util.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__init__.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libcrypto.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libcrypto_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libcrypto_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libssl.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libssl_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/_libssl_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/asymmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/symmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/tls.py",
+    "lib/python3.8/site-packages/oscrypto/_openssl/util.py",
+    "lib/python3.8/site-packages/oscrypto/_pkcs1.py",
+    "lib/python3.8/site-packages/oscrypto/_pkcs12.py",
+    "lib/python3.8/site-packages/oscrypto/_pkcs5.py",
+    "lib/python3.8/site-packages/oscrypto/_rand.py",
+    "lib/python3.8/site-packages/oscrypto/_tls.py",
+    "lib/python3.8/site-packages/oscrypto/_types.py",
+    "lib/python3.8/site-packages/oscrypto/_win/__init__.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_advapi32.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_advapi32_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_advapi32_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_cng.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_cng_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_cng_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_crypt32.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_crypt32_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_crypt32_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_decode.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_kernel32.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_kernel32_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_kernel32_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_secur32.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_secur32_cffi.py",
+    "lib/python3.8/site-packages/oscrypto/_win/_secur32_ctypes.py",
+    "lib/python3.8/site-packages/oscrypto/_win/asymmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_win/symmetric.py",
+    "lib/python3.8/site-packages/oscrypto/_win/tls.py",
+    "lib/python3.8/site-packages/oscrypto/_win/trust_list.py",
+    "lib/python3.8/site-packages/oscrypto/_win/util.py",
+    "lib/python3.8/site-packages/oscrypto/asymmetric.py",
+    "lib/python3.8/site-packages/oscrypto/errors.py",
+    "lib/python3.8/site-packages/oscrypto/kdf.py",
+    "lib/python3.8/site-packages/oscrypto/keys.py",
+    "lib/python3.8/site-packages/oscrypto/symmetric.py",
+    "lib/python3.8/site-packages/oscrypto/tls.py",
+    "lib/python3.8/site-packages/oscrypto/trust_list.py",
+    "lib/python3.8/site-packages/oscrypto/util.py",
+    "lib/python3.8/site-packages/oscrypto/version.py",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_asn1.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_asymmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_cipher_suites.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_ecdsa.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_ffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_int.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_linux_bsd/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_linux_bsd/__pycache__/trust_list.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/asymmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/tls.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/trust_list.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/asymmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/tls.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs1.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs12.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs5.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_rand.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_tls.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/_types.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/__init__.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_decode.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32_cffi.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32_ctypes.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/asymmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/tls.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/trust_list.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/_win/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/asymmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/errors.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/kdf.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/keys.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/symmetric.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/tls.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/trust_list.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/util.cpython-38.pyc",
+    "lib/python3.8/site-packages/oscrypto/__pycache__/version.cpython-38.pyc"
+  ],
+  "fn": "oscrypto-1.2.1-pyhd3deb0d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/opt/homebrew/anaconda3/pkgs/oscrypto-1.2.1-pyhd3deb0d_0",
+    "type": 1
+  },
+  "md5": "a717f22c057a91fc7b4517f94dc5240e",
+  "name": "oscrypto",
+  "noarch": "python",
+  "package_tarball_full_path": "/opt/homebrew/anaconda3/pkgs/oscrypto-1.2.1-pyhd3deb0d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "a88480656ec98943fb04344f6a477ee74062896f3ddb1a6f99e5f05f0109a286",
+        "sha256_in_prefix": "a88480656ec98943fb04344f6a477ee74062896f3ddb1a6f99e5f05f0109a286",
+        "size_in_bytes": 1075
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "a82d54e7acbcec778ef890fc449e5f51dee0a1d56e924d198810cea627abee39",
+        "sha256_in_prefix": "a82d54e7acbcec778ef890fc449e5f51dee0a1d56e924d198810cea627abee39",
+        "size_in_bytes": 13477
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "984ff45c2b5e3c142b54b82e923380903c664e66a7d4acb126c94a5f0a3a83ed",
+        "sha256_in_prefix": "984ff45c2b5e3c142b54b82e923380903c664e66a7d4acb126c94a5f0a3a83ed",
+        "size_in_bytes": 10711
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "sha256_in_prefix": "3aa464174798e461ecb0ca2b16395b4c8ab4ef6be91e917ad1f21003a952f710",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "244a28a097641835600d6dd3b3fb6f164fd4b45e32fb376bb3ba55bbfd91fe5d",
+        "sha256_in_prefix": "244a28a097641835600d6dd3b3fb6f164fd4b45e32fb376bb3ba55bbfd91fe5d",
+        "size_in_bytes": 104
+      },
+      {
+        "_path": "site-packages/oscrypto-1.2.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4d7161f8b254b890208039e3dd7121a45c5b61cce94786f6496c4c97ceaa6c3e",
+        "sha256_in_prefix": "4d7161f8b254b890208039e3dd7121a45c5b61cce94786f6496c4c97ceaa6c3e",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "site-packages/oscrypto/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "12040cea2e7acb03768159b8256d9e941a943606bef0d590b5a47db02c1e0b0e",
+        "sha256_in_prefix": "12040cea2e7acb03768159b8256d9e941a943606bef0d590b5a47db02c1e0b0e",
+        "size_in_bytes": 9754
+      },
+      {
+        "_path": "site-packages/oscrypto/_asn1.py",
+        "path_type": "hardlink",
+        "sha256": "9e17e087ada277a1f759b662e3160ca9081a7917fee3d0bf74c6b543fc7b3168",
+        "sha256_in_prefix": "9e17e087ada277a1f759b662e3160ca9081a7917fee3d0bf74c6b543fc7b3168",
+        "size_in_bytes": 1959
+      },
+      {
+        "_path": "site-packages/oscrypto/_asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "3a909c01a87ac9bdff8e98794087a446f043dea99334e22c3f5eded8d70c7e97",
+        "sha256_in_prefix": "3a909c01a87ac9bdff8e98794087a446f043dea99334e22c3f5eded8d70c7e97",
+        "size_in_bytes": 30884
+      },
+      {
+        "_path": "site-packages/oscrypto/_cipher_suites.py",
+        "path_type": "hardlink",
+        "sha256": "01bfae8271c9e74f334c0a76556ae700473f0f50397c4d291fb825042e81b4fd",
+        "sha256_in_prefix": "01bfae8271c9e74f334c0a76556ae700473f0f50397c4d291fb825042e81b4fd",
+        "size_in_bytes": 18069
+      },
+      {
+        "_path": "site-packages/oscrypto/_ecdsa.py",
+        "path_type": "hardlink",
+        "sha256": "9576dc424d49690bb7e2bb66da19a285ef4928441409d695ea33f0e20416900c",
+        "sha256_in_prefix": "9576dc424d49690bb7e2bb66da19a285ef4928441409d695ea33f0e20416900c",
+        "size_in_bytes": 22818
+      },
+      {
+        "_path": "site-packages/oscrypto/_errors.py",
+        "path_type": "hardlink",
+        "sha256": "b64002a1bbb0d60793e2295f7361659ccbaf739b77037884f80126cb1b049e72",
+        "sha256_in_prefix": "b64002a1bbb0d60793e2295f7361659ccbaf739b77037884f80126cb1b049e72",
+        "size_in_bytes": 1021
+      },
+      {
+        "_path": "site-packages/oscrypto/_ffi.py",
+        "path_type": "hardlink",
+        "sha256": "b7b962839bb7e0eb7a2bcf0de2828af8a49f0b67a33f33c25a6c353f66c70de9",
+        "sha256_in_prefix": "b7b962839bb7e0eb7a2bcf0de2828af8a49f0b67a33f33c25a6c353f66c70de9",
+        "size_in_bytes": 12102
+      },
+      {
+        "_path": "site-packages/oscrypto/_int.py",
+        "path_type": "hardlink",
+        "sha256": "1f74d64668d7e817c6f2efb715348e27cbe74b03c13b0dc86c61a9e7924e05b5",
+        "sha256_in_prefix": "1f74d64668d7e817c6f2efb715348e27cbe74b03c13b0dc86c61a9e7924e05b5",
+        "size_in_bytes": 666
+      },
+      {
+        "_path": "site-packages/oscrypto/_linux_bsd/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/oscrypto/_linux_bsd/trust_list.py",
+        "path_type": "hardlink",
+        "sha256": "c17c36341dda25221e003dd90e5f10832d768fc22ce36a3739b466d69a801254",
+        "sha256_in_prefix": "c17c36341dda25221e003dd90e5f10832d768fc22ce36a3739b466d69a801254",
+        "size_in_bytes": 4025
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_common_crypto.py",
+        "path_type": "hardlink",
+        "sha256": "07515c687896583932903e4709926f609c74ab02e19c6f38a8679006814c8a56",
+        "sha256_in_prefix": "07515c687896583932903e4709926f609c74ab02e19c6f38a8679006814c8a56",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_common_crypto_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "010a6716c41617f08b1d24775228f7120979c788a2377cde17a25d1820f06618",
+        "sha256_in_prefix": "010a6716c41617f08b1d24775228f7120979c788a2377cde17a25d1820f06618",
+        "size_in_bytes": 737
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_common_crypto_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "31925da44ba1772e46004b470eb758bf1a98890ec6b2bb363874c0dc2f1d1d3f",
+        "sha256_in_prefix": "31925da44ba1772e46004b470eb758bf1a98890ec6b2bb363874c0dc2f1d1d3f",
+        "size_in_bytes": 715
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_core_foundation.py",
+        "path_type": "hardlink",
+        "sha256": "8f4f088bbc5a54a61f4d34a9e39b886ba5e3eab32f4aab77540d342d7ce7de4d",
+        "sha256_in_prefix": "8f4f088bbc5a54a61f4d34a9e39b886ba5e3eab32f4aab77540d342d7ce7de4d",
+        "size_in_bytes": 10189
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_core_foundation_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "d4b49e078b7d5f4a0f24fdbf206f5158eb8eee4ab0b5adef38f76e08233f6557",
+        "sha256_in_prefix": "d4b49e078b7d5f4a0f24fdbf206f5158eb8eee4ab0b5adef38f76e08233f6557",
+        "size_in_bytes": 10925
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_core_foundation_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "27705cbbe2d3c116f1bfe7c9886317d0a92c76d805f839aece68fbeb5b240b09",
+        "sha256_in_prefix": "27705cbbe2d3c116f1bfe7c9886317d0a92c76d805f839aece68fbeb5b240b09",
+        "size_in_bytes": 13479
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_security.py",
+        "path_type": "hardlink",
+        "sha256": "4f4c61d8c6cbf6d9f05f5704934d93f7d200e8982f74087e5be47314dc0648fe",
+        "sha256_in_prefix": "4f4c61d8c6cbf6d9f05f5704934d93f7d200e8982f74087e5be47314dc0648fe",
+        "size_in_bytes": 4142
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_security_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "e19044dc744a293e776550c74c675f1f06919d8395279adf30029225c9bc2bd1",
+        "sha256_in_prefix": "e19044dc744a293e776550c74c675f1f06919d8395279adf30029225c9bc2bd1",
+        "size_in_bytes": 10938
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/_security_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "a0d48524cb307f5241c289ee7d3c408b9806a64ca9d37fe34382bc9a70762399",
+        "sha256_in_prefix": "a0d48524cb307f5241c289ee7d3c408b9806a64ca9d37fe34382bc9a70762399",
+        "size_in_bytes": 18480
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "c28bad56864d9a09f42a45fa93d6a6e7498b66fccd6fc4e030a049bfb1e0b6aa",
+        "sha256_in_prefix": "c28bad56864d9a09f42a45fa93d6a6e7498b66fccd6fc4e030a049bfb1e0b6aa",
+        "size_in_bytes": 63457
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "ca553b6d3a1cf25eed87f96529347a8189f4c5356a56afd3cd5a542ba42c6dbe",
+        "sha256_in_prefix": "ca553b6d3a1cf25eed87f96529347a8189f4c5356a56afd3cd5a542ba42c6dbe",
+        "size_in_bytes": 21661
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/tls.py",
+        "path_type": "hardlink",
+        "sha256": "25ccc73b1cca900551c94beaa8c262091160d4a32ea5b14c25edb81df405adb4",
+        "sha256_in_prefix": "25ccc73b1cca900551c94beaa8c262091160d4a32ea5b14c25edb81df405adb4",
+        "size_in_bytes": 52924
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/trust_list.py",
+        "path_type": "hardlink",
+        "sha256": "14b053f2bac8bf94585bf2fd8d00ef25f066637b264fc55ce08927f0eb97144d",
+        "sha256_in_prefix": "14b053f2bac8bf94585bf2fd8d00ef25f066637b264fc55ce08927f0eb97144d",
+        "size_in_bytes": 7522
+      },
+      {
+        "_path": "site-packages/oscrypto/_mac/util.py",
+        "path_type": "hardlink",
+        "sha256": "d910f00f342d8ddda11ca60d3887f90a85fe4bfd1b17abc6ccd4a21ac91657a4",
+        "sha256_in_prefix": "d910f00f342d8ddda11ca60d3887f90a85fe4bfd1b17abc6ccd4a21ac91657a4",
+        "size_in_bytes": 10028
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libcrypto.py",
+        "path_type": "hardlink",
+        "sha256": "66a5ce9ecc1fe7bcce4e6bc1193f1e98f07a3c68521d3ac9ac573b7db1d4ff92",
+        "sha256_in_prefix": "66a5ce9ecc1fe7bcce4e6bc1193f1e98f07a3c68521d3ac9ac573b7db1d4ff92",
+        "size_in_bytes": 3134
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libcrypto_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "5f8c55ceaf22bf1128f43e1670b408c81564a7235ac2b5cf34eb459baff350ca",
+        "sha256_in_prefix": "5f8c55ceaf22bf1128f43e1670b408c81564a7235ac2b5cf34eb459baff350ca",
+        "size_in_bytes": 9503
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libcrypto_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "b73e1211905f0dd1aa940232e28ef930eeb5882e8fb79c3789cbee703ea6e017",
+        "sha256_in_prefix": "b73e1211905f0dd1aa940232e28ef930eeb5882e8fb79c3789cbee703ea6e017",
+        "size_in_bytes": 17120
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libssl.py",
+        "path_type": "hardlink",
+        "sha256": "1897ec608156534c16ed1c8218ae8e3d0875d06cc748ff5e51a9e3c73181763a",
+        "sha256_in_prefix": "1897ec608156534c16ed1c8218ae8e3d0875d06cc748ff5e51a9e3c73181763a",
+        "size_in_bytes": 2163
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libssl_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "96e991444db80252c18b5fde6d77bf071b1f9cb1d5e48c7d92c97988327db5b6",
+        "sha256_in_prefix": "96e991444db80252c18b5fde6d77bf071b1f9cb1d5e48c7d92c97988327db5b6",
+        "size_in_bytes": 3057
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/_libssl_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "c5c7b53c9afc16cae17b4d84fa6daeae15e93b6d1ce9119b7234e67b14ed6138",
+        "sha256_in_prefix": "c5c7b53c9afc16cae17b4d84fa6daeae15e93b6d1ce9119b7234e67b14ed6138",
+        "size_in_bytes": 6026
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "41b78b15c2362cc076dff35c15f9966195395bcf45a080b10ecf09ae5b582db9",
+        "sha256_in_prefix": "41b78b15c2362cc076dff35c15f9966195395bcf45a080b10ecf09ae5b582db9",
+        "size_in_bytes": 61346
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "b1cd55400f444072c4a12b21084aa5bb4608ea91862402e5e566b2ecf773e144",
+        "sha256_in_prefix": "b1cd55400f444072c4a12b21084aa5bb4608ea91862402e5e566b2ecf773e144",
+        "size_in_bytes": 23072
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/tls.py",
+        "path_type": "hardlink",
+        "sha256": "a425ac54347ec6680cfd710e2373d0e156b80a9606bd84844679f7e3720863c0",
+        "sha256_in_prefix": "a425ac54347ec6680cfd710e2373d0e156b80a9606bd84844679f7e3720863c0",
+        "size_in_bytes": 42965
+      },
+      {
+        "_path": "site-packages/oscrypto/_openssl/util.py",
+        "path_type": "hardlink",
+        "sha256": "b9e27f8e5ba6643825f56cd593df15b9fdaa4fcf52cbc7791e8b64ce8af34b76",
+        "sha256_in_prefix": "b9e27f8e5ba6643825f56cd593df15b9fdaa4fcf52cbc7791e8b64ce8af34b76",
+        "size_in_bytes": 6886
+      },
+      {
+        "_path": "site-packages/oscrypto/_pkcs1.py",
+        "path_type": "hardlink",
+        "sha256": "e4607b779b8f3f7a130eded8dce1f9819c18518f39d548e6a3838c77550493cf",
+        "sha256_in_prefix": "e4607b779b8f3f7a130eded8dce1f9819c18518f39d548e6a3838c77550493cf",
+        "size_in_bytes": 20267
+      },
+      {
+        "_path": "site-packages/oscrypto/_pkcs12.py",
+        "path_type": "hardlink",
+        "sha256": "0a92d9529a21730a44326d539f7805ad73787dc5bb1886b97a188e283c2bd593",
+        "sha256_in_prefix": "0a92d9529a21730a44326d539f7805ad73787dc5bb1886b97a188e283c2bd593",
+        "size_in_bytes": 4876
+      },
+      {
+        "_path": "site-packages/oscrypto/_pkcs5.py",
+        "path_type": "hardlink",
+        "sha256": "157e444afd904d16a25136b9d8f224a5adae9ba3b3ec53334a4acb04521fc2ca",
+        "sha256_in_prefix": "157e444afd904d16a25136b9d8f224a5adae9ba3b3ec53334a4acb04521fc2ca",
+        "size_in_bytes": 3413
+      },
+      {
+        "_path": "site-packages/oscrypto/_rand.py",
+        "path_type": "hardlink",
+        "sha256": "d7e5170b038ae3809d0a580f643d7944fc813083524d804ddeb4a3b1c7bdde7b",
+        "sha256_in_prefix": "d7e5170b038ae3809d0a580f643d7944fc813083524d804ddeb4a3b1c7bdde7b",
+        "size_in_bytes": 1040
+      },
+      {
+        "_path": "site-packages/oscrypto/_tls.py",
+        "path_type": "hardlink",
+        "sha256": "5a5d6a8802314b819d1093c834a4be7d5724c9056a78a513662f3e1c9a9aaaf1",
+        "sha256_in_prefix": "5a5d6a8802314b819d1093c834a4be7d5724c9056a78a513662f3e1c9a9aaaf1",
+        "size_in_bytes": 17408
+      },
+      {
+        "_path": "site-packages/oscrypto/_types.py",
+        "path_type": "hardlink",
+        "sha256": "9779f240006017e1b4bcee022d40ec6695e611c80e2214b5d58c70c5eee7f1c5",
+        "sha256_in_prefix": "9779f240006017e1b4bcee022d40ec6695e611c80e2214b5d58c70c5eee7f1c5",
+        "size_in_bytes": 872
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_advapi32.py",
+        "path_type": "hardlink",
+        "sha256": "46da5b84f9abf2f6f91842df6fe58013b517f4f5ae2dba0a172b4ee7ddd4ae16",
+        "sha256_in_prefix": "46da5b84f9abf2f6f91842df6fe58013b517f4f5ae2dba0a172b4ee7ddd4ae16",
+        "size_in_bytes": 4350
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_advapi32_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "076a2fffb8cfa2471f52001d7e3daed1885499dd45831a248bfd7ede04cde4f0",
+        "sha256_in_prefix": "076a2fffb8cfa2471f52001d7e3daed1885499dd45831a248bfd7ede04cde4f0",
+        "size_in_bytes": 4600
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_advapi32_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "93306b037cba9c96c0d97917be75ef46b08215015bb26e66a999af12e4351f27",
+        "sha256_in_prefix": "93306b037cba9c96c0d97917be75ef46b08215015bb26e66a999af12e4351f27",
+        "size_in_bytes": 7486
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_cng.py",
+        "path_type": "hardlink",
+        "sha256": "3ee4f0bf5f063ebbfbf776a396fdf6a611dd57d64027d37fd92085fc5e7541fa",
+        "sha256_in_prefix": "3ee4f0bf5f063ebbfbf776a396fdf6a611dd57d64027d37fd92085fc5e7541fa",
+        "size_in_bytes": 4503
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_cng_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "dfb1ae624ed284468f65242f09d0eae337698f0f929c96aefc1a465f33e8ba21",
+        "sha256_in_prefix": "dfb1ae624ed284468f65242f09d0eae337698f0f929c96aefc1a465f33e8ba21",
+        "size_in_bytes": 4478
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_cng_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "bc0e41633336d893ff03aa4666e4c4a521478c093590df6305895db6079275d5",
+        "sha256_in_prefix": "bc0e41633336d893ff03aa4666e4c4a521478c093590df6305895db6079275d5",
+        "size_in_bytes": 6155
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_crypt32.py",
+        "path_type": "hardlink",
+        "sha256": "4a06ac46663ef8c41325f3902cf04e85509382698ec4fd130ea31fc43a0c6952",
+        "sha256_in_prefix": "4a06ac46663ef8c41325f3902cf04e85509382698ec4fd130ea31fc43a0c6952",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_crypt32_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "5e4418190caf57a65ba3fd0b68891c600c3bcb6921ad187f9b5b26239989e019",
+        "sha256_in_prefix": "5e4418190caf57a65ba3fd0b68891c600c3bcb6921ad187f9b5b26239989e019",
+        "size_in_bytes": 5920
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_crypt32_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "e7851bdee447888bfaf189c6b23a365eb8678b9c52f37a6df3b1f9b011599fb7",
+        "sha256_in_prefix": "e7851bdee447888bfaf189c6b23a365eb8678b9c52f37a6df3b1f9b011599fb7",
+        "size_in_bytes": 8220
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_decode.py",
+        "path_type": "hardlink",
+        "sha256": "5f2533940cdf9994fb9058146c036f45d771bdbcd7c02bc4eb500644423d0f10",
+        "sha256_in_prefix": "5f2533940cdf9994fb9058146c036f45d771bdbcd7c02bc4eb500644423d0f10",
+        "size_in_bytes": 913
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_kernel32.py",
+        "path_type": "hardlink",
+        "sha256": "af6214c05db12b7831c347c652ce8fb5f772515869236a0c2d75b310df20f000",
+        "sha256_in_prefix": "af6214c05db12b7831c347c652ce8fb5f772515869236a0c2d75b310df20f000",
+        "size_in_bytes": 806
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_kernel32_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "65e69989892fec9e4e6cc2ae5f0248e6e9dc91ba908a0b6def3afcebcdf85e59",
+        "sha256_in_prefix": "65e69989892fec9e4e6cc2ae5f0248e6e9dc91ba908a0b6def3afcebcdf85e59",
+        "size_in_bytes": 932
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_kernel32_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "f6998456c44b362f20f940e3bc9fc21d54f9638197ef40abc073624164a2fb43",
+        "sha256_in_prefix": "f6998456c44b362f20f940e3bc9fc21d54f9638197ef40abc073624164a2fb43",
+        "size_in_bytes": 1269
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_secur32.py",
+        "path_type": "hardlink",
+        "sha256": "a4b00e950c6d2c7df4c374b6308dd502cedfc856580354034e4513161333ca19",
+        "sha256_in_prefix": "a4b00e950c6d2c7df4c374b6308dd502cedfc856580354034e4513161333ca19",
+        "size_in_bytes": 3969
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_secur32_cffi.py",
+        "path_type": "hardlink",
+        "sha256": "b71ebbc0ed03059ce161253889ba6e0cbf338ad66ac6b181665456860d908825",
+        "sha256_in_prefix": "b71ebbc0ed03059ce161253889ba6e0cbf338ad66ac6b181665456860d908825",
+        "size_in_bytes": 3967
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/_secur32_ctypes.py",
+        "path_type": "hardlink",
+        "sha256": "43d623c35fffe1835165ab2efdf16852184b9757c1727de4af79df32bc8fc1dd",
+        "sha256_in_prefix": "43d623c35fffe1835165ab2efdf16852184b9757c1727de4af79df32bc8fc1dd",
+        "size_in_bytes": 5305
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "be9930c9043a6b48eb24adb703e0b31a365d73f3e44d765f7346f6bf653046ac",
+        "sha256_in_prefix": "be9930c9043a6b48eb24adb703e0b31a365d73f3e44d765f7346f6bf653046ac",
+        "size_in_bytes": 121741
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "058e2d0044276ee731ad4846fef263adc94c741e597f783d87f22a2424f51f62",
+        "sha256_in_prefix": "058e2d0044276ee731ad4846fef263adc94c741e597f783d87f22a2424f51f62",
+        "size_in_bytes": 30886
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/tls.py",
+        "path_type": "hardlink",
+        "sha256": "0bc99ac1fb92efcb70ffe747cd5e4aaf34597e14f6cb88ebfe56da998b8c8d96",
+        "sha256_in_prefix": "0bc99ac1fb92efcb70ffe747cd5e4aaf34597e14f6cb88ebfe56da998b8c8d96",
+        "size_in_bytes": 59042
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/trust_list.py",
+        "path_type": "hardlink",
+        "sha256": "4724929b9267ecd8c9210b36860aa3c93d6714ac71392a45926410633fe28e61",
+        "sha256_in_prefix": "4724929b9267ecd8c9210b36860aa3c93d6714ac71392a45926410633fe28e61",
+        "size_in_bytes": 8144
+      },
+      {
+        "_path": "site-packages/oscrypto/_win/util.py",
+        "path_type": "hardlink",
+        "sha256": "b8818d0fd79a848bc0dcf575885848f716f71934ae562cee6b1e5383017e4ebb",
+        "sha256_in_prefix": "b8818d0fd79a848bc0dcf575885848f716f71934ae562cee6b1e5383017e4ebb",
+        "size_in_bytes": 5234
+      },
+      {
+        "_path": "site-packages/oscrypto/asymmetric.py",
+        "path_type": "hardlink",
+        "sha256": "e77102c69c968410c9de216e036139bef2e32c444b460082219688b491e5d26a",
+        "sha256_in_prefix": "e77102c69c968410c9de216e036139bef2e32c444b460082219688b491e5d26a",
+        "size_in_bytes": 13142
+      },
+      {
+        "_path": "site-packages/oscrypto/errors.py",
+        "path_type": "hardlink",
+        "sha256": "b9eb949a2ddbcc95aa1932649fb1a882df771102ec522d11753a9252cb8e7c81",
+        "sha256_in_prefix": "b9eb949a2ddbcc95aa1932649fb1a882df771102ec522d11753a9252cb8e7c81",
+        "size_in_bytes": 1912
+      },
+      {
+        "_path": "site-packages/oscrypto/kdf.py",
+        "path_type": "hardlink",
+        "sha256": "bb19e443e776eb44375d928481b4cc01d6ca3823a954f236413e8c00e3fa657c",
+        "sha256_in_prefix": "bb19e443e776eb44375d928481b4cc01d6ca3823a954f236413e8c00e3fa657c",
+        "size_in_bytes": 7346
+      },
+      {
+        "_path": "site-packages/oscrypto/keys.py",
+        "path_type": "hardlink",
+        "sha256": "19be8b5acf4876ade7addd9301f004d31a6273820626f22cc6cdb3ee64db350f",
+        "sha256_in_prefix": "19be8b5acf4876ade7addd9301f004d31a6273820626f22cc6cdb3ee64db350f",
+        "size_in_bytes": 542
+      },
+      {
+        "_path": "site-packages/oscrypto/symmetric.py",
+        "path_type": "hardlink",
+        "sha256": "dd83942260165a5ce760ec13df10a960280365bed1ea811607176287443d52dd",
+        "sha256_in_prefix": "dd83942260165a5ce760ec13df10a960280365bed1ea811607176287443d52dd",
+        "size_in_bytes": 1840
+      },
+      {
+        "_path": "site-packages/oscrypto/tls.py",
+        "path_type": "hardlink",
+        "sha256": "df8f0fc5542be1257490b75d70d2e587392b2370429b486171a691243679c58e",
+        "sha256_in_prefix": "df8f0fc5542be1257490b75d70d2e587392b2370429b486171a691243679c58e",
+        "size_in_bytes": 502
+      },
+      {
+        "_path": "site-packages/oscrypto/trust_list.py",
+        "path_type": "hardlink",
+        "sha256": "07103fb445be3e547159adc9d5f15eb873674ad33bfb43b6a7f6c7bb4824d626",
+        "sha256_in_prefix": "07103fb445be3e547159adc9d5f15eb873674ad33bfb43b6a7f6c7bb4824d626",
+        "size_in_bytes": 13313
+      },
+      {
+        "_path": "site-packages/oscrypto/util.py",
+        "path_type": "hardlink",
+        "sha256": "ff2323cb4bca081d04dd6248fcfea88231db866ba18c2875a6e0e8e0b7ae1910",
+        "sha256_in_prefix": "ff2323cb4bca081d04dd6248fcfea88231db866ba18c2875a6e0e8e0b7ae1910",
+        "size_in_bytes": 1331
+      },
+      {
+        "_path": "site-packages/oscrypto/version.py",
+        "path_type": "hardlink",
+        "sha256": "42b2154599e0738552f2add6e35d7a60dc14f544a93305b74c6642f6c0c8116f",
+        "sha256_in_prefix": "42b2154599e0738552f2add6e35d7a60dc14f544a93305b74c6642f6c0c8116f",
+        "size_in_bytes": 152
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_asn1.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_asymmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_cipher_suites.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_ecdsa.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_ffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_int.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_linux_bsd/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_linux_bsd/__pycache__/trust_list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_common_crypto_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_core_foundation_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/_security_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/asymmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/symmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/tls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/trust_list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_mac/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libcrypto_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/_libssl_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/asymmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/symmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/tls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_openssl/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs1.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs12.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_pkcs5.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_rand.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_tls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/_types.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/__init__.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_advapi32_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_cng_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_crypt32_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_decode.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_kernel32_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32_cffi.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/_secur32_ctypes.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/asymmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/symmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/tls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/trust_list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/_win/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/asymmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/errors.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/kdf.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/keys.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/symmetric.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/tls.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/trust_list.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/util.cpython-38.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.8/site-packages/oscrypto/__pycache__/version.cpython-38.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "252211957655a9e6a5a24f8a5b25c60a4cb786297401a28b497b16fd855342b6",
+  "size": 122759,
+  "subdir": "noarch",
+  "timestamp": 1610206014937,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/oscrypto-1.2.1-pyhd3deb0d_0.tar.bz2",
+  "version": "1.2.1"
+}
