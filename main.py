@@ -3,11 +3,21 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+import boto3
+import pandas as pd
 
+sts_client = boto3.client('sts')
+assumed_role_object=sts_client.assume_role(
+    RoleArn="arn:aws:iam::798104083011:role/nest_role",
+    RoleSessionName="AssumeRoleSession1"
+)
 
-def print_hi(name):
+s3_client = boto3.resource('s3')
+
+def print_hi(event, context):
+    print(pd.__version__)
     # Use a breakpoint in the code line below to debug your script.
-    print("Hi, {0}".format(name))  # Press Ctrl+F8 to toggle the breakpoint.
+    print("Hi, {0}".format(event))  # Press Ctrl+F8 to toggle the breakpoint.
 
 
 # Press the green button in the gutter to run the script.

@@ -10,12 +10,4 @@ provider:
 functions:
   hello:
     handler: main.print_hi
-    layers:
-      - !Ref layerOne
-
-layers:
-  layerOne:
-    path: layerOne
-    package:
-      patterns:
-        - '!env.tar.gz'
+    role: arn:aws:iam::798104083011:role/test-lambda-role

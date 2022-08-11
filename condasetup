@@ -1,2 +1,4 @@
 conda env create -f environment.yml
 conda env update --file environment.yml --prune
+conda env export --name depend-test | yq -r '.dependencies[] | .. | select(type == "string")' | sed -E "s/(^[^=]*)(=+)([0-9.]+)(=.*|$)/\1==\3/" > requirements.txt
+conda env export --name depend-test --json | jq '.dependencies[]' | cut -d '=' -f 1,2 | sed 's/=/==/' | tr -d '"' > requirements.txt
