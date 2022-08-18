@@ -11,3 +11,12 @@ functions:
   hello:
     handler: main.print_hi
     role: arn:aws:iam::798104083011:role/test-lambda-role
+
+  another:
+    name: another-lambda-print-hello
+    handler: another.print_hello
+    role: arn:aws:iam::798104083011:role/test-lambda-role
+    events:
+      - http:
+          path: test-another-hello
+          method: GET
